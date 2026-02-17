@@ -3,18 +3,34 @@
     "$id": "project_core_schema.json",
     "description": "This schema defines the structure of the IATI project location standard. It is used to validate the project location data provided by the project counterparts.",
     "properties": {
-        "schemeVersion": {
+        "scheme_version": {
             "type": "string",
             "enum": [
                 "1.0"
             ]
         },
-        "activity_description": {
-            "description": "A short description of the main project activity in this location.",
+    "f_id": {
+            "description": "For new locations, this column is empty. For updates, your project counterpart will provide you with a list of unique field ID numbers in this file to ensure that updated location IDs match with the former ones.",
+            "type": "string"
+        },
+        "donor_project_no": {
+            "description": "Every project location in the IATI Project Location Standard must be assigned to its respective (IATI) donor project number, which is provided by the respective partner, donor or implementing agency.",
+            "type": "string"
+        },
+         "project_acronym": {
+            "description": "Please enter the acronym used for the name/title of the project to be visible on your map.",
             "type": "string"
         },
         "data_provider": {
             "description": "Legal entity that provided the data here (= legal authorship).",
+            "type": "string"
+        },
+        "publishing_restrictions": {
+            "description": "Indicates if this information is collected in fragile regions and should therefore be omitted from publicly available reports.",
+            "enum": [
+                "yes ",
+                "no"
+            ],
             "type": "string"
         },
         "date_of_data_collection": {
@@ -22,14 +38,40 @@
             "format": "date",
             "type": "string"
         },
-        "geographic_exactness": {
-            "description": "Please use 'exact' if the end destination of a financial flow is geographically known, and it is not an administrative unit, and if you do not face security restrictions to do so. Otherwise, please choose 'approximate (yet unknown)', 'approximate (security)', or 'approximate (admin unit)'",
+        "related_community": {
+            "description": "You may enter a village, hamlet, or neighborhood name that relates to this location. This can serve to manually add smaller community or administrative unit names not identified in existing global databases.",
+            "type": "string"
+        },
+        "location_name": {
+            "description": "Unique name of the project site and its (main) activity incl local MIS-/GIS-ID, if availabe. This will be used as reference for line and polygon data.",
+            "type": "string"
+        },
+        "location_activity_status": {
+            "description": "The activity status at the location according to the IATI standard.",
             "enum": [
-                "exact",
-                "approximate (yet unknown)",
-                "approximate (security)",
-                "approximate (admin unit)"
+                "NA",
+                "Pipeline/identification",
+                "Implementation",
+                "Finalisation",
+                "Closed",
+                "Cancelled",
+                "Suspended",
+                "Other"
             ],
+            "type": "string"
+        },
+        "activity_start_date": {
+            "description": "Approximate planned or actual start date of activities on the ground.",
+            "format": "date",
+            "type": "string"
+        },
+        "activity_end_date": {
+            "description": "Approximate planned or actual end date of implementation of activities on the ground.",
+            "format": "date",
+            "type": "string"
+        },
+        "activity_description": {
+            "description": "A short description of the main project activity in this location.",
             "type": "string"
         },
         "location_type_theme": {
@@ -90,9 +132,9 @@
                 "supply chains (support) area",
                 "voucher(s) (system) distributrion area",
                 "slaugtherhouse",
-                "mine(s)"
-                "workshop(s)"
-                "sustainably farmed area(s)"
+                "mine(s)",
+                "workshop(s)",
+                "sustainably farmed area(s)",
                 "cultivated area",
                 "garden(s)",
                 "grazing / rangeland (management) area",
@@ -107,23 +149,20 @@
                 "contract farming / PPP",
                 "farmers groups / cooperatives support",
                 "agroforestry area",
-                "aquaculture"
-                "fisheries management area"
+                "aquaculture",
+                "fisheries management area",
                 "certified sustainable aquaculture or fisheries (MSC, ASC)",
                 "coastguard station",
                 "FAO catch-area",
                 "feed-mill",
                 "inland waters fishery",
                 "pond ",
-                "small scale fisheries (SSF) zone"
+                "small scale fisheries (SSF) zone",
                 "school (primary, secondary, college)",
-
-
-                
                 "TVET school / infrastructure",
                 "university",
                 "scholarship program area",
-                "area covered by off-grid renewable energy (ex. photovoltaic grid)",
+                "area covered by off-grid renewable energy",
                 "area covered by on-grid renewable energy ",
                 "biogas plant",
                 "electric power transmission & distribution (T&D)",
@@ -133,10 +172,12 @@
                 "hydrogen plant",
                 "hydropower plant / dam",
                 "solar power plant",
-                "solar water pump",
                 "wind power plant",
                 "district heating area / distribution",
                 "battery energy storage system (BESS)",
+                "fuel station",
+                "charging station",
+                "power station (other)",
                 "bank",
                 "banking branch / outlet",
                 "company",
@@ -150,10 +191,9 @@
                 "guarantees",
                 "loans",
                 "subordinated loans",
-                " ICT infrastructure (broadband / connectivity)",
-                " ICT infrastructure (data center)",
+                "ICT infrastructure (broadband / connectivity)",
+                "ICT infrastructure (data center)",
                 "(communal) public infrastructure",
-                "(communal) public office",
                 "citizen service center",
                 "customs office",
                 "fire station",
@@ -178,50 +218,30 @@
                 "distribution of medical products / contraceptives",
                 "social franchising / NGO clinics",
                 "social marketing",
-                "coast",
-                "coral reef",
-                "exclusive economic zone (EEZ)",
-                "kelp-forest",
-                "mangroves",
-                "marine protected area (MPA)",
-                "no-take-zone",
-                "seagrass-meadow",
-                "small scale fisheries (SSF) zone",
                 "airplane(s)",
                 "airport",
                 "aviation safety system / flight control",
-                "boats / boat yard",
-                "bridge  ",
+                "boat(s) / ship(s) / -yard",
+                "bridge",
                 "bus rapid transit (BRT) / bus system",
                 "buses",
-                "electric / diesel multiple unit (DMU/EMU)",
+                "rolling stock",
                 "ferry (line, system)",
-                "freight waggons",
-                "heavy rail system",
+                "intraurban rail infrastructure",
+                "interurban rail infrastructure",
                 "highway",
-                "intermodal passenger hub",
-                "light rail transit system",
-                "locomotives / trains",
-                "marshelling yard",
-                "multimodal terminal / logistic node",
+                "depot / marshalling yard",
                 "other road based-vehicles",
-                "passenger coaches",
                 "pedestrian lane(s) / bike lane(s)",
                 "port",
-                "rail infrastructure interurban",
-                "rail infrastructure intraurban",
                 "rail operation control system / intelligent transport system (ITS)",
-                "rail station",
+                "railroad station",
                 "railroad",
                 "road",
-                "rural road(s)",
-                "subway (system)",
-                "terminal (within port)",
-                "traffic management center / ITS",
-                "tramway (system)",
-                "warehouse  / logistics center",
+                "traffic management center / IST",
+                "(multimodal) logistic node / warehouse",
                 "waterway(s) (system)",
-                "bus station",
+                "bus station / terminal",
                 "camp(s)",
                 "emergency supplies distribution area",
                 "food access point",
@@ -231,6 +251,7 @@
                 "disarmament, demobilisation, reintegration of combatants (DDR)",
                 "election support",
                 "reparation payments",
+                "child protection services"
                 "women's shelter / GBV support",
                 "basic social services",
                 "cash- / food-for-work",
@@ -238,52 +259,45 @@
                 "climate risk insurance",
                 "social protection system",
                 "employment subsidies",
-                "agrobiodiversity area",
-                "agroecology area",
-                "agroforestry area",
-                "certified sustainable forest management (FSC, Rainforest Alliance, PEFC)",
-                "coastal protection area",
-                "corridor / ecosystem connectivity",
-                "deforestation (area)",
-                "forest station",
-                "forest(s)",
-                "glacier(s)",
-                "grassland",
-                "habitat or species management area (IUCN Cat IV)",
-                "indigenous & community conservation area (ICCA)",
-                "indigenous peoples & local communities (IP&LC)",
-                "lake",
+                "strict nature reserve (IUCN Cat Ia)",
+                "wilderness area (IUCN Cat Ib)",
                 "national park (IUCN Cat II)",
                 "natural monument or feature (IUCN Cat III)",
-                "ocean",
-                "protected area with sustainable use of natural resources (IUCN Cat VI)",
-                "protected farmland area",
+                "habitat or species management area (IUCN Cat IV)",
                 "protected landscape or seascape (IUCN Cat V)",
-                "ranger station",
-                "re- / afforestation area",
-                "regeneration / restoration / rehabilition area",
-                "renaturation of water bodies",
-                "scrubland",
-                "sea",
-                "seed bank",
-                "strict nature reserve (IUCN Cat Ia)",
-                "swamp",
-                "tribal area",
-                "watercourse",
-                "watershed",
-                "wilderness area (IUCN Cat Ib)",
-                "area under payment for environmental services / incentive system",
+                "protected area with sustainable use of natural resources (IUCN Cat VI)",
                 "other effective area-based conservation measures (OECM)",
+                "indigenous & community conservation area (ICCA)",
+                "indigenous and traditional territories (ITT)",
+                "wildlife management area / game reserve",
+                "marine protected area (MPA)",
+                "locally managed marine areas (LMMA)",
+                "private protected area / conservation easement",
+                "exclusive economic zone (EEZ)",
+                "indigenous peoples & local communities (IP&LC)",
+                "no-take zone",
+                "visitor center / education facility",
+                "regeneration / restoration / rehabilition area",
+                "watershed / catchment conservation area",
+                "fire management area",
+                "key biodiversity area (KBA) with financed management",
+                "buffer zone around a protected or sensitive area",
+                "invasive species management area",
+                "ranger station / field base",
+                "re- / afforestation area",
+                "biodiversity offset / compensation area incl. PFES",
+                "certified sustainable forest management (FSC, Rainforest Alliance, PEFC)",
+                "ecological corridor / connectivity area",
+                "monitoring and research sites",
+                "harvesting sites for NTFPs and other biodiversity products",
                 "(urban) street",
                 "city district / urban development",
                 "market (shopping area)",
                 "parcs & other green areas",
-                "public space(s)",
                 "shopping center or mall",
                 "slum upgrading",
-                "street lightning",
-                "composting plant",
-                "fermentation plant",
+                "street lighting",
+                "recycling facility",
                 "improved waste collection",
                 "landfill",
                 "landfill gas capture and treatment",
@@ -292,106 +306,57 @@
                 "transfer station",
                 "waste sorting plant",
                 "waste-to-energy plant",
-                "decentralized water supply",
+                "water pump",
                 "desalination plant",
                 "dezentralized sanitation (area)",
-                "drinking water network",
-                "drinking water pump station",
-                "drinking water transport pipeline",
+                "drinking water supply",
+                "water pipeline",
                 "drinking water treatment plant (without desalination)",
                 "flood protection",
                 "reservoir(s) ",
                 "sanitary facility",
                 "sewage treatment plant",
                 "sewer network",
-                "sewer pump station",
                 "sludge treatment & disposal",
                 "stormwater network / system",
-                "wastewater pipeline",
                 "water intake",
                 "water re-use",
-                "water storage infrastructure",
                 "water tank",
                 "well",
                 "hydro-meteorological measurement system",
-                "water resources protection area"
+                "water resources protection area",
+                "watercourse"
             ]
         },
-        "kfwProjectNoINPRO": {
-            "description": "Every project location in the FC Geodata Model must be assigned to its respective KfW project number, which is provided by KfW.",
-            "type": "string"
-        },
-        "locationActivityStatus": {
-            "description": "The location activity status according to the IATI standard.",
+        "geographic_exactness": {
+            "description": "Please use 'exact' if the end destination of a financial flow is geographically known, and it is not an administrative unit, and if you do not face security restrictions to do so. Otherwise, please choose 'approximate (yet unknown)', 'approximate (security)', or 'approximate (admin unit)'",
             "enum": [
-                "NA",
-                "Pipeline/identification",
-                "Implementation",
-                "Finalisation",
-                "Closed",
-                "Cancelled",
-                "Suspended",
-                "Other"
+                "exact",
+                "approximate (yet unknown)",
+                "approximate (security)",
+                "approximate (admin unit)"
             ],
-            "type": "string"
-        },
-        "locationName": {
-            "description": "Short name of the project site ideally containing a summary of the main project activity and the location name.",
-            "type": "string"
-        },
-        "plannedOrActualEndDate": {
-            "description": "Approximate planned or actual end date of activities on the ground.",
-            "format": "date",
-            "type": "string"
-        },
-        "plannedOrActualStartDate": {
-            "description": "Approximate planned or actual start date of implementation of activities on the ground.",
-            "format": "date",
-            "type": "string"
-        },
-        "primaryKey": {
-            "description": "This is only required if you provide additional geolocation information in another KML file.",
-            "type": "string"
-        },
-        "projectAcronym": {
-            "description": "Please enter the acronym used for the name/title of the project to be visible on your map.",
-            "type": "string"
-        },
-        "projectSpecificLocationIdentifier": {
-            "description": "If the location or activity has a project-specific identifier, it can be entered here.",
-            "type": "string"
-        },
-        "publishingRestrictions": {
-            "description": "Indicates if this information is collected in fragile regions and should therefore be omitted from publicly available reports.",
-            "enum": [
-                "yes ",
-                "no"
-            ],
-            "type": "string"
-        },
-        "relatedCommunityVillageNeighborhood": {
-            "description": "You may enter a village, hamlet, or neighborhood name that relates to this location. This can serve to manually add smaller community or administrative unit names not identified in existing global databases.",
-            "type": "string"
-        },
-        "uniqueId": {
-            "description": "For new locations, this column is empty. For updates, your KfW counterpart will provide you with a list of unique_id numbers in this file to ensure that updated location IDs match with the former ones.",
             "type": "string"
         }
-    },
+     },
     "required": [
-        "kfwProjectNoINPRO",
-        "dataOwner",
-        "publishingRestrictions",
-        "locationName",
-        "plannedOrActualStartDate",
-        "plannedOrActualEndDate",
-        "activityDescriptionGeneral",
-        "dac5PurposeCode",
-        "geographicExactness",
-        "location_type",
-        "sector",
-        "schemeVersion"
-    ],
-    "title": "Project Location Model",
+        "f_id",
+        "scheme_version",
+        "donor_project_no",
+        "project_acronym".
+        "data_provider",
+        "publishing_restrictions",
+        "date_of_data_collection",
+        "related_community",
+        "location_name",
+        "location_activity_status",
+        "activity_start_date",
+        "activity_end_date",
+        "activity_description",
+        "location_type_theme",
+        "location_type_name",
+        "geographic_exactness"
+     ],
+    "title": "IATI Project Location Standard",
     "type": "object"
 }
