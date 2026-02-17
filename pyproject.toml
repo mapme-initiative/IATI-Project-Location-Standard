@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "project-location-model-docs"
+name = "IATI-project-location-standard-docs"
 version = "1.0.0"
 package-mode = false
-description = "Documentation generator for Project Location Model schemas"
+description = "Documentation generator for IATI Project Location Standard schemas"
 authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
