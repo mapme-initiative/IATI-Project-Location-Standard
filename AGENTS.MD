@@ -1,6 +1,6 @@
 # AGENTS.MD - Developer Guide for AI Agents
 
-This document provides comprehensive guidance for AI agents and developers working on the Project Location Model repository. It covers project structure, development workflows, coding standards, and best practices.
+This document provides comprehensive guidance for AI agents and developers working on the IATI Project Location Standard repository. It covers project structure, development workflows, coding standards, and best practices.
 
 ---
 
