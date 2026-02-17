@@ -1,0 +1,7 @@
+src 
+- App.tsx
+- main.tsx
+- vite-env.d.ts
+- App.scss
+
+./scss/FileValidator.scss
