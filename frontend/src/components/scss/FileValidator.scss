@@ -1,0 +1,78 @@
+.file_validator {
+
+	header p {
+		font-size: 16px;
+		color: #555;
+		margin-bottom: 20px;
+	}
+
+
+
+	.file_validator_validation_result {
+		position: absolute;
+		top: 280px;
+		right: 20px;
+		width: 650px;
+		max-height: 90vh;
+		overflow-y: auto;
+		padding: 15px;
+		background-color: rgba(255, 255, 255, 0.9);
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		color: #333;
+		font-size: 14px;
+		z-index: 1000;
+
+		pre {
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+	}
+
+
+
+	.file_validator_map {
+		position: relative;
+		display: flex;
+		align-items: left;
+		width: 100%;
+		height: 600px;
+		margin: 2px 0;
+	}
+
+
+
+	.file_validator_buttons {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		gap: 5%;
+
+		button {
+			margin-top: 10px;
+			padding: 10px 20px;
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+}
+
+/* Horizontal inline list for example files */
+.example-files {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.example-files li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.example-files li p {
+	margin: 0;
+	display: inline;
+}

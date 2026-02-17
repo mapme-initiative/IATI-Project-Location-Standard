@@ -1,0 +1,57 @@
+// Map popup styles
+.map-popup {
+  max-width: 700px;
+  font-family: Arial, sans-serif;
+
+  h3 {
+    margin: 0 0 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .popup-content {
+    margin-top: 1.5em;
+  }
+
+  p {
+    margin: 5px 0;
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .popup-label {
+    font-weight: 600;
+    display: inline-block;
+    min-width: 170px;
+  }
+
+  .popup-value {
+    display: inline-block;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    
+    &:hover {
+      background: #3a80d2;
+    }
+  }
+}
+
+// Improve leaflet popup styling
+.leaflet-popup-content {
+  margin: 12px 15px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  padding: 6px;
+} 
