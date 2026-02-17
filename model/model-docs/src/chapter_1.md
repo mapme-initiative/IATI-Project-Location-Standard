@@ -1,2 +1,2 @@
-# Project Location Validator
+# Project Location Validator (not yet available!)
 Access to our Project Location Validator: <a href="project-location-validator/index.html" target="_blank">project-location-validator</a>
