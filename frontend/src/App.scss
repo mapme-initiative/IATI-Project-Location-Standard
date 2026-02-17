@@ -1,0 +1,130 @@
+body {
+
+  --popup-background-color: rgb(130, 130, 130, .5);
+  --background-color: rgb(250, 250, 250);
+  --box-shadow-color: rgb(180, 180, 180);
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/02/earth_from_space_cote_d_ivoire/25482274-1-eng-GB/Earth_from_Space_Cote_d_Ivoire.jpg');
+}
+
+/* Scoped style for FileValidator component to reset the background */
+.file_validator {
+  background-color: var(--background-color); // Apply a simple background color
+  background-image: none; // Remove background image
+  width: 100%; // Responsive width, takes up 100% of the available space
+  max-width: 1000px; // Maximum width constraint for larger screens
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 100px;
+  height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--box-shadow-color);
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Allows items to wrap onto the next line if space is tight */
+  max-width: 800px;
+  /* Adjust based on your layout needs */
+  margin: 20px auto;
+  /* Center the form in the middle of the page/view */
+  padding: 20px;
+  gap: 20px;
+  /* Spacing between label-input groups */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Optional: adds shadow for better visibility */
+  align-items: flex-start;
+  /* Aligns items at the start of the flex container */
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  /* Stack label and input vertically */
+  width: 100%;
+  /* Each item takes full width available */
+  max-width: 240px;
+  /* Maximum width of each label-input pair */
+}
+
+.form-item label {
+  margin-bottom: 5px;
+  /* Space between label and input */
+  font-weight: bold;
+}
+
+.form-item input[type="text"],
+.form-item input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.button-responsive {
+  transition: all .25s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+input,
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 15px;
+}
+
+#map {
+  height: 300px;
+}
