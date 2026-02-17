@@ -1,0 +1,90 @@
+# Deploy Documentation and OGM Validator to GitHub Pages
+name: Deploy Documentation to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # name of the branch you are pushing to
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: latest
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v4
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+          
+      - name: Install Python dependencies
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
+        
+      - name: Generate Schema Documentation
+        run: |
+          poetry run python generate_schema_docs.py
+          
+      - name: Setup mdbook
+        uses: peaceiris/actions-mdbook@v2
+        with:
+          mdbook-version: 'latest'
+          
+      - name: Build mdbook
+        run: |
+          cd model/model-docs
+          mdbook build
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: 'frontend/package-lock.json'
+          
+      - name: Install Frontend Dependencies
+        run: cd frontend && npm ci
+        
+      - name: Build Frontend
+        run: cd frontend && npm run build
+        
+      - name: Integrate Project Location Validator into Documentation
+        run: |
+          mkdir -p model/model-docs/book/project-location-validator
+          cp -R frontend/dist/* model/model-docs/book/project-location-validator/
+      - name: Upload Documentation Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'model/model-docs/book/'
+          
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
