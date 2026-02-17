@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sector_schema_en.json",
+  "description": "Categorical Sector and Location Type pairs which are referenced in the Project Core Schema.",
+  "type": "string",
+  "enum": [
+    "_Generic / Cross_Sectoral",
+    "Agriculture / Rural_Development",
+    "Aquaculture / Fishery",
+    "Education",
+    "Energy",
+    "Financial_Sector_Development",
+    "Governance / Decentralization",
+    "Health",
+    "Marine_Natural_Resources_Protection",
+    "Mobility / Transport",
+    "Peace / Displacement / Fragility",
+    "Social_Protection",
+    "Terrestrial_Natural_Resources_Protection",
+    "Urban_Infrastructure",
+    "Waster",
+    "Water_Management"
+  ]
+}

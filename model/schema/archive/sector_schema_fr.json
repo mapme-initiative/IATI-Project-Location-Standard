@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sector_schema_fr.json",
+  "description": "Version française des paires de secteur catégorique et de type de localisation qui sont référencées dans le schéma de base du projet.",
+  "type": "string",
+  "enum": [
+    "_Générique_Intersectoriel",
+    "Agriculture_Développement_rural",
+    "Aquaculture_Pêche",
+    "Éducation",
+    "Énergie",
+    "Développement_secteur_financier",
+    "Gouvernance_Décentralisation",
+    "Santé",
+    "Protection_des_ressources_naturelles_marines",
+    "Mobilité_Transport",
+    "Paix_Déplacement_Fragilité",
+    "Protection_sociale",
+    "Protection_des_ressources_naturelles_terrestres",
+    "Infrastructure_urbaine",
+    "Déchets",
+    "Gestion_de_l’eau"
+  ]
+}
