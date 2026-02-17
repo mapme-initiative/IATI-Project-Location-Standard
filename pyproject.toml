@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project-location-model-docs"
+version = "1.0.0"
+package-mode = false
+description = "Documentation generator for Project Location Model schemas"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+json-schema-for-humans = "^1.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
