@@ -1,12 +1,12 @@
-# Project Location Model
+# IATI Project Location Standard
 
-This repository contains all necesary information to collect georeferenced project locations according to the Project Location Model for Development cooperation used by the KfW Development Bank. 
+This repository contains all guidelines and templates for our joint proposal of an operational IATI project location standard. This will enable all participating international aid and development cooperation institutions to collect georeferenced project locations. 
 
-You can find the documentation in a user-friendly format [here](https://mapme-initiative.github.io/project_location_model/). 
+You can find the documentation in a user-friendly format [here](https://mapme-initiative.github.io/IATI-Project-Location-Standard/). 
 
-The documentation specifies everything you need to know to collect data. It also contains a validator tool that can be used before sumbissions. You can find the validator tool [here](https://mapme-initiative.github.io/project_location_model/project-location-validator/index.html). 
+The documentation specifies everything you need to know to collect data. 
 
-In case you need support or in case you would like to propose improvements to the model, the validator tool or the repository, feel free to create an issue or fork the repository and createa an upstream pull request.
+In case you need support or in case you would like to propose improvements to the model or the repository, feel free to create an issue or fork the repository and createa an upstream pull request.
 
 
 # Validator tool (for developers)
