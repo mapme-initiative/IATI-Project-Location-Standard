@@ -193,17 +193,17 @@ export default function FileValidator(): React.ReactElement {
 					})
 					.filter(notUndefined)
 				console.log("validateParsedData().allErrors", allErrors)
-				if (allErrors.length == 0) { // Wenn keine Fehler gefunden wurden & alle datenreihen eine inproNumber haben, dann aktiviere den Mail-Button
+				if (allErrors.length == 0) { // Wenn keine Fehler gefunden wurden & alle datenreihen eine donor_project_no haben, dann aktiviere den Mail-Button
 					setValidationResult("Excel/CSV data is valid!");
 					console.log("validateParsedData().data:", data)
 					const localInproNumbers = data.map(removeWhiteSpaceInFeatureProperty)
-					console.log("validateParsedData().localInproNumbers:", localInproNumbers)
-					if (localInproNumbers.filter((n: any) => n === undefined && n === null).length > 0) { // this here should never happened, it just represent the worst case of data cause we've finished our validation-process!
-						setValidationResult("Something terrible happend, we've inpro-nos which are null or undefined and they passed our validation. Please check your data again and send this crazy dataset to the it-support (us), please.")
+					console.log("validateParsedData().localdonor_project_no:", donor_project_no)
+					if (localdonor_project_no.filter((n: any) => n === undefined && n === null).length > 0) { // this here should never happened, it just represent the worst case of data cause we've finished our validation-process!
+						setValidationResult("Something terrible happend, we've donor_project_no which are null or undefined and they passed our validation. Please check your data again and send this crazy dataset to the it-support (us), please.")
 						return;
 					}
 					setEnableEMailButton(true)
-					setInProNumbers(new Set(localInproNumbers))
+					setInProNumbers(new Set(localdonor_project_no))
 				} else {
 					setValidationResult(`Validation Errors:\n${allErrors.join("\n")}`);
 					setEnableEMailButton(false)
@@ -253,33 +253,32 @@ export default function FileValidator(): React.ReactElement {
 			</p>
 			<ul>
 				<li>Make sure to attach the latest validated (and valid) version to the email.</li>
-				<li>In case of any problems or feature request create an issue at our <a href={"https://github.com/mapme-initiative/project_location_model/issues"}>Github-Issue-Tracker</a>.</li>
+				<li>In case of any problems or feature request create an issue at our <a href={"https://github.com/mapme-initiative/IATI-Project-Location-Standard/issues"}>Github-Issue-Tracker</a>.</li>
 			</ul>
 			<FormControl variant="outlined" size="small">
 				<InputLabel id="lang-select-label">Language</InputLabel>
 				<Select
 					labelId="lang-select-label"
 					value={lang}
-					onChange={e => setLang(e.target.value as 'en' | 'fr')}
+					onChange={e => setLang(e.target.value as 'en')}
 					label="Language"
 				>
 					<MenuItem value="en">English</MenuItem>
-					<MenuItem value="fr">Francais</MenuItem>
-				</Select>
+					</Select>
 			</FormControl>
 			<FileUpload
 				sx={{ ml: 1.5 }}
 				onChange={handleFileUpload}
 				title={"File upload"}
 			/>
-			<SendMailButton sx={{ ml: 1.5 }} isEnabled={enableEMailButton} {...(inProNumbers ? { inProNumbers: [...inProNumbers] } : {})} />
+			<SendMailButton sx={{ ml: 1.5 }} isEnabled={enableEMailButton} {...(donor_project_no ? { donor_project_no: [...donor_project_no] } : {})} />
 			<Button
 				sx={{ ml: 1.5 }}
 				variant={"contained"}
 				disabled={!enableEMailButton}
 				onClick={downloadProcessed}
 			>Download GeoJSON</Button>
-			<Button target="_blank" href={"https://github.com/mapme-initiative/project_location_model/issues"} sx={{ ml: 1.5 }} variant={"contained"} color={"error"}>report Issue</Button>
+			<Button target="_blank" href={"https://github.com/mapme-initiative/IATI-Project-Location-Standard/issues"} sx={{ ml: 1.5 }} variant={"contained"} color={"error"}>report Issue</Button>
 		</header>
 
 
@@ -329,8 +328,7 @@ export default function FileValidator(): React.ReactElement {
 
 		<h4>Example Files:</h4>
 		<ul className="example-files">
-			<li><p><a href={"./Project_Location_Data_Template_EN_V03.xlsx"}>working example</a></p></li>
-			<li><p><a href={"./Project_Location_Data_Template_FR_V03.xlsx"}>french example</a></p></li>
+			<li><p><a href={"./IATI_Project_Location_Data_Template_EN_V03.xlsx"}>working example</a></p></li>
 			<li><p><a href={"./sheet_not_found.xlsx"}>no fill-me sheet</a></p></li>
 			<li><p><a href={"./invalid_data.xlsx"}>invalid_data</a></p></li>
 			<li><p><a href={"./missing_lat_lon.xlsx"}>missing_lat_lon</a></p></li>
