@@ -1,6 +1,6 @@
-# Project Location Model Documentation
+# IATI Project Location Standard Documentation
 
-This directory contains the source files and configuration for generating the Project Location Model documentation as a GitHub Pages site.
+This directory contains the source files and configuration for generating the IATI Project Location Standard documentation as a GitHub Pages site.
 
 ## Structure
 
