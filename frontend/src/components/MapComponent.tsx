@@ -83,25 +83,22 @@ const MapComponent: React.FC<MapComponentProps> = ({ geoJsonData }) => {
         <div class="map-popup">
           <h3>${props.locationName || 'N/A'}</h3>
           <div class="popup-content">
-            <p><span class="popup-label">Unique ID:</span> <span class="popup-value">${props.uniqueId || 'N/A'}</span></p>
-            <p><span class="popup-label">Inpro Nr.:</span> <span class="popup-value">${props.kfwProjectNoINPRO || 'N/A'}</span></p>
-            <p><span class="popup-label">Project Acronym:</span> <span class="popup-value">${props.projectAcronym || 'N/A'}</span></p>
-            <p><span class="popup-label">Data Owner:</span> <span class="popup-value">${props.dataOwner || 'N/A'}</span></p>
-            <p><span class="popup-label">Publishing Restrictions:</span> <span class="popup-value">${props.publishingRestrictions || 'N/A'}</span></p>
-            <p><span class="popup-label">Date of Data Collection:</span> <span class="popup-value">${props.dateOfDataCollection || 'N/A'}</span></p>
-            <p><span class="popup-label">Location Identifier:</span> <span class="popup-value">${props.projectSpecificLocationIdentifier || 'N/A'}</span></p>
-            <p><span class="popup-label">Location name:</span> <span class="popup-value">${props.locationName || 'N/A'}</span></p>
-            <p><span class="popup-label">Activity Status:</span> <span class="popup-value">${props.locationActivityStatus || 'N/A'}</span></p>
-            <p><span class="popup-label">Start Date:</span> <span class="popup-value">${props.plannedOrActualStartDate || 'N/A'}</span></p>
-            <p><span class="popup-label">End Date:</span> <span class="popup-value">${props.plannedOrActualEndDate || 'N/A'}</span></p>
-            <p><span class="popup-label">Activity Description:</span> <span class="popup-value">${props.activityDescriptionGeneral || 'N/A'}</span></p>
-            <p><span class="popup-label">Activity Details:</span> <span class="popup-value">${props.additionalActivityDescription || 'N/A'}</span></p>
-            <p><span class="popup-label">Location Type:</span> <span class="popup-value">${props.sector_location?.location_type || 'N/A'}</span></p>
-            <p><span class="popup-label">DAC5 Sector:</span> <span class="popup-value">${props.dac5PurposeCode || 'N/A'}</span></p>
-            <p><span class="popup-label">Geographic Exactness:</span> <span class="popup-value">${props.geographicExactness || 'N/A'}</span></p>
-            <p><span class="popup-label">Related Community or Village:</span> <span class="popup-value">${props.relatedCommunityVillageNeighborhood || 'N/A'}</span></p>
-            <p><span class="popup-label">Scheme Version:</span> <span class="popup-value">${props.schemeVersion || 'N/A'}</span></p>
-            ${timeLapseLink ? `<div>${timeLapseLink}</div>` : ''}
+            <p><span class="popup-label">Field ID:</span> <span class="popup-value">${props.f_id || 'N/A'}</span></p>
+            <p><span class="popup-label">Scheme Version:</span> <span class="popup-value">${props.scheme_version || 'N/A'}</span></p>
+            <p><span class="popup-label">Donor Project No.:</span> <span class="popup-value">${props.donor_project_no || 'N/A'}</span></p>
+            <p><span class="popup-label">Project Acronym:</span> <span class="popup-value">${props.project_acronym || 'N/A'}</span></p>
+            <p><span class="popup-label">Data Provider:</span> <span class="popup-value">${props.data_provider || 'N/A'}</span></p>
+            <p><span class="popup-label">Publishing Restrictions:</span> <span class="popup-value">${props.publishing_restrictions || 'N/A'}</span></p>
+            <p><span class="popup-label">Date of Data Collection:</span> <span class="popup-value">${props.date_of_data_collection || 'N/A'}</span></p>
+            <p><span class="popup-label">related_community:</span> <span class="popup-value">${props.related_community || 'N/A'}</span></p>
+            <p><span class="popup-label">Location Name:</span> <span class="popup-value">${props.location_name || 'N/A'}</span></p>
+            <p><span class="popup-label">Location Activity Status:</span> <span class="popup-value">${props.location_activity_status || 'N/A'}</span></p>
+            <p><span class="popup-label">Activity Start Date:</span> <span class="popup-value">${props.activity_start_date || 'N/A'}</span></p>
+            <p><span class="popup-label">Activity End Date:</span> <span class="popup-value">${props.activity_end_date || 'N/A'}</span></p>
+            <p><span class="popup-label">Activity Description:</span> <span class="popup-value">${props.activity_description || 'N/A'}</span></p>
+            <p><span class="popup-label">Location Type Theme:</span> <span class="popup-value">${props.location_type_theme?.location_type_name || 'N/A'}</span></p>
+            <p><span class="popup-label">Geographic Exactness:</span> <span class="popup-value">${props.geographic_exactness || 'N/A'}</span></p>
+          ${timeLapseLink ? `<div>${timeLapseLink}</div>` : ''}
           </div>
         </div>
       `;
