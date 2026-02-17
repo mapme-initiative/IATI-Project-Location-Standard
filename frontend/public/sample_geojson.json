@@ -1,0 +1,56 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.2437,
+                    34.0522
+                ],
+                [
+                    -118.2437,
+                    34.0622
+                ],
+                [
+                    -118.2537,
+                    34.0622
+                ],
+                [
+                    -118.2537,
+                    34.0522
+                ],
+                [
+                    -118.2437,
+                    34.0522
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "uniqueId": "9438398640",
+        "kfwProjectNoINPRO": "29937",
+        "projectAcronym": "HRE II",
+        "dataOwner": "Integration Consulting",
+        "publishingRestrictions": "no",
+        "dateOfDataCollection": "2020-02-01",
+        "projectSpecificLocationIdentifier": "WPD_0129",
+        "locationName": "Hassanabad I",
+        "locationActivityStatus": "Pipeline/identification",
+        "plannedOrActualStartDate": "2019-12-13",
+        "plannedOrActualEndDate": "2024-12-13",
+        "activityDescriptionGeneral": "Rehabilitation of MHP Powerhouse",
+        "additionalActivityDescription": "1.5 MW",
+        "sector_location": {
+            "sector": "_Generic / Cross_Sectoral",
+            "location_type": "building(s)"
+        },
+        "location_type2": "",
+        "dac5PurposeCode": 23210,
+        "budgetShare": 1000000,
+        "geographicExactness": "exact",
+        "relatedCommunityVillageNeighborhood": "Hassanabad Town & Upper Hunza",
+        "filenameOfAdditionalGeoData": "",
+        "primaryKey": "10"
+    }
+}
