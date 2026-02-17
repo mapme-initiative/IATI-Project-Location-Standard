@@ -12,7 +12,6 @@
 
 ## Annex 2
 - [Project Core Schema (EN)](./schemas/project_core_schema_en.md)
-- [Project Core Schema (FR)](./schemas/project_core_schema_fr.md)
 - [Feature Project Schema](./schemas/feature_project_schema.md)
 
 
