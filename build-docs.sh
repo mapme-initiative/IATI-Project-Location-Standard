@@ -1,9 +1,9 @@
 #!/bin/bash
-# Local development script for Project Location Model documentation
+# Local development script for IATI Project Location Standard documentation
 
 set -e
 
-echo "🏗️  Building Project Location Model Documentation"
+echo "🏗️  Building IATI Project Location Standard Documentation"
 echo ""
 
 # Check if poetry is installed
