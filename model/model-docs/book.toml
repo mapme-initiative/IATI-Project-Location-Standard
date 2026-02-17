@@ -1,0 +1,11 @@
+[book]
+authors = ["Project Team"]
+language = "en"
+src = "src"
+title = "Project Location Model Documentation"
+
+[output.html]
+additional-css = ["src/custom.css"]
+git-repository-url = "https://github.com/mapme-initiative/IATI_project_location_standard"
+
+[preprocessor.links]
