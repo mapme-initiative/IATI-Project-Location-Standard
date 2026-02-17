@@ -1,0 +1,21 @@
+/* Source - https://stackoverflow.com/a
+ Posted by Sandman, modified by community. See post 'Timeline' for change history
+ Retrieved 2025-11-18, License - CC BY-SA 4.0
+ https://stackoverflow.com/questions/73555768/how-to-change-width-of-content-area-in-mdbook
+*/
+
+:root {
+    --content-max-width: max(750px, 90%);
+}
+.schema-docs {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.schema-title {
+    color: #2c5e8a;
+    border-bottom: 2px solid #2c5e8a;
+    padding-bottom: 0.5em;
+}
