@@ -8,6 +8,7 @@ The documentation specifies everything you need to know to collect data.
 
 In case you need support or in case you would like to propose improvements to the model or the repository, feel free to create an issue or fork the repository and createa an upstream pull request.
 
+TBD
 
 # Validator tool (for developers)
 ## Install
