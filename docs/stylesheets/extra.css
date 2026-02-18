@@ -1,0 +1,95 @@
+/* ─── Layout ─────────────────────────────────────────────────── */
+.md-grid {
+  max-width: 1400px;
+}
+
+/* ─── Schema / data-model doc blocks ─────────────────────────── */
+.schema-docs {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.schema-title {
+  color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  padding-bottom: 0.5em;
+  margin-top: 0;
+}
+
+/* ─── Admonition tweaks ───────────────────────────────────────── */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 4px;
+}
+
+/* ─── Hero banner on home page ───────────────────────────────── */
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 640px;
+  margin: 0 auto 2rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  transition: opacity 0.2s;
+}
+
+.hero-buttons a:hover {
+  opacity: 0.85;
+}
+
+.hero-buttons a.secondary {
+  background: transparent;
+  border: 2px solid var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+/* ─── Feature cards on home page ─────────────────────────────── */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  padding: 1.4rem;
+  background: var(--md-code-bg-color);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 0.88rem;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0;
+}

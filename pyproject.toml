@@ -1,14 +1,11 @@
-[tool.poetry]
-name = "IATI-project-location-standard-docs"
-version = "1.0.0"
-package-mode = false
-description = "Documentation generator for IATI Project Location Standard schemas"
-authors = ["Your Name <your.email@example.com>"]
+[project]
+name = "iati-project-location-standard"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = []
 
-[tool.poetry.dependencies]
-python = "^3.10"
-json-schema-for-humans = "^1.3.4"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "mkdocs-material>=9.5",
+    "mkdocs-minify-plugin>=0.8",
+]
