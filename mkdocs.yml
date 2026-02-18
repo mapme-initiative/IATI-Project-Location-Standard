@@ -1,5 +1,4 @@
 site_name: IATI Project Location Standard
-site_url: https://mapme-initiative.github.io/IATI-Project-Location-Standard/
 repo_url: https://github.com/mapme-initiative/IATI-Project-Location-Standard
 repo_name: mapme-initiative/IATI-Project-Location-Standard
 edit_uri: edit/main/docs/
@@ -16,7 +15,7 @@ copyright: >
 
 theme:
   name: material
-  logo: assets/mapme-logo.png  # replace with actual logo if available
+  logo: assets/mapme-logo.png # replace with actual logo if available
   favicon: assets/mapme-logo.png
   palette:
     # Light mode
@@ -104,10 +103,10 @@ nav:
   - Home: index.md
   - Introduction: introduction.md
   - Data Collection:
-    - Guidelines: collection.md
-    - Validation: validation.md
-    - FAQs: faqs.md
+      - Guidelines: collection.md
+      - Validation: validation.md
+      - FAQs: faqs.md
   - Annexes:
-    - 'Annex 1: Excel Templates': annex1.md
-    - 'Annex 2: JSON Schema': annex2.md
+      - "Annex 1: Excel Templates": annex1.md
+      - "Annex 2: JSON Schema": annex2.md
   - Disclaimer: disclaimer.md
