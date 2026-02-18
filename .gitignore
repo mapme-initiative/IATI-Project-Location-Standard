@@ -37,6 +37,6 @@ __pycache__/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# Documentation builds
-model/model-docs/book/
-model/model-docs/src/schemas/
+
+
+/site

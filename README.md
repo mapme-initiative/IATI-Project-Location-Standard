@@ -1,150 +1,78 @@
 # IATI Project Location Standard
 
-This repository contains all guidelines and templates for our joint proposal of an operational IATI project location standard. This will enable all participating international aid and development cooperation institutions to collect georeferenced project locations. 
+Documentation and data model for collecting georeferenced project locations in international aid and development cooperation, maintained by the [MAPME Community of Practice](https://www.mapme-initiative.org/).
 
-You can find the documentation in a user-friendly format [here](https://mapme-initiative.github.io/IATI-Project-Location-Standard/). 
-
-The documentation specifies everything you need to know to collect data. 
-
-In case you need support or in case you would like to propose improvements to the model or the repository, feel free to create an issue or fork the repository and createa an upstream pull request.
-
-TBD
-
-# Validator tool (for developers)
-## Install
-GUI 
-```bash
-cd frontend && npm install
-npm run dev
-```
-
-
-## Analyze-Tools
-* SonarQube: for code quality
-* CodeQL: for code security
-* Dependabot: for dependency updates (maybe renovate-bot)
-* Test-Coverage: through jest and is visible in pull-requests
-
-## Structure
-* frontend: the React frontend
-* model: json-schema-files
-
-## How example-excel-files work
-* the files are automatically copied from assets
-* to make them visible for the end-user - you've to add a link in the [FileValidator.tsx](../../src/components/FileValidator.tsx) file
-
-
-### This project is built with [Vite](https://vitejs.dev/) and React using TypeScript. Below are instructions to run and manage the project locally.
+📖 **[Read the docs →](https://mapme-initiative.github.io/IATI-Project-Location-Standard/)**
 
 ---
 
-### Prerequisites
+## What this repository contains
 
-* **Node.js** (version 14 or higher)
-* **npm** (version 6 or higher) or **yarn**
+```
+IATI-Project-Location-Standard/
+├── docs/          # Documentation source (Markdown)
+├── model/         # JSON schema files (the data model)
+├── mkdocs.yml     # Site configuration
+└── pyproject.toml
+```
 
-Ensure you have Node.js and npm installed:
+- **`docs/`** — Source files for the documentation website. Edit these to update the published site.
+- **`model/`** — The actual data model as JSON schemas (`project_core_schema_en.json`, `feature_project_schema.json`). These define the structure for validating submitted location data.
+
+---
+
+## Contributing
+
+### Editing documentation
+
+All documentation lives in `docs/` as plain Markdown files. To propose a change:
+
+1. Fork the repository
+2. Edit or add files in `docs/`
+3. Open a pull request
+
+To report an issue or suggest an improvement without editing directly, [open an issue](https://github.com/mapme-initiative/IATI-Project-Location-Standard/issues).
+
+### Editing the data model
+
+The JSON schemas in `model/` define the data structure. Changes there should be discussed via an issue first, as they affect downstream validators and template files.
+
+---
+
+## Local development
+
+**Prerequisites:** [uv](https://docs.astral.sh/uv/getting-started/installation/)
 
 ```bash
-node -v
-npm -v
+# 1. Clone the repo
+git clone https://github.com/mapme-initiative/IATI-Project-Location-Standard.git
+cd IATI-Project-Location-Standard
+
+# 2. Install dependencies
+uv sync
+
+# 3. Start the live-reload dev server
+uv run mkdocs serve
 ```
 
----
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) — the site reloads automatically when you save a file.
 
-### Getting Started
-
-1. **Clone the repository**
+To do a one-off build:
 
 ```bash
-git clone https://github.com/mapme-initiative/project_location_model/;
-cd project_location_model;
+uv run mkdocs build     # output goes to site/
 ```
 
+---
 
+## Deployment
 
-2. **Install dependencies**
+The site is automatically built and deployed to GitHub Pages on every push to `main` via the workflow in `.github/workflows/deploy.yml`. No manual steps required.
 
-```bash
-npm install
-# or using yarn
-yarn install
-````
+The workflow uses [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) and requires no secrets or tokens beyond the default `GITHUB_TOKEN`.
 
 ---
 
-### Running Locally
+## License
 
-To start the development server and begin working on the project:
-
-```bash
-npm run dev
-```
-
-This will:
-
-* Launch Vite in development mode.
-* Enable hot module replacement (HMR).
-* Serve the app on `http://localhost:5173/` by default.
-
-You should see output similar to:
-
-```
-  vite vX.X.X dev server running at:
-  > Local:    http://localhost:5173/
-  > Network:  use --host to expose
-```
-
-Open your browser and navigate to `http://localhost:5173/` to view the app.
-
----
-
-### Linting
-
-To ensure code quality and consistency, run:
-
-```bash
-npm run lint
-```
-
-This will use ESLint to analyze all `.ts` and `.tsx` files and enforce rules, reporting any unused disable directives and failing if there are any warnings or errors.
-
----
-
-### Configuration
-
-* **Vite config:** `vite.config.ts` contains project-specific Vite configurations (e.g., path aliases, plugins).
-* **TypeScript config:** `tsconfig.json` sets up TypeScript compilation options.
-* **ESLint config:** `.eslintrc.*` contains linting rules and settings.
-
----
-
-### Troubleshooting
-
-* If you encounter port conflicts, you can specify a different port:
-
-  ```bash
-  vite --port 3000 --mode development
-  ```
-
-* Clear Vite cache:
-
-  ```bash
-  rm -rf node_modules/.vite
-  ```
-
-* For detailed error stacks, enable debug logging:
-
-  ```bash
-  DEBUG=vite:* npm run dev
-  ```
-
----
-
-### Contributing
-
-Feel free to open issues or submit pull requests. Please follow the existing coding conventions and ensure all lint checks pass.
-
----
-
-
+[GPL-3.0](LICENSE) — MAPME Community of Practice
