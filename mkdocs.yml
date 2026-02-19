@@ -102,10 +102,8 @@ extra:
 nav:
   - Home: index.md
   - Introduction: introduction.md
+  - Definitions / FAQs: faqs.md
+  - Data Model: data_model.md    
   - Data Collection: collection.md
   - Validation: validation.md
-  - FAQs: faqs.md
-  - Data Model:
-      - "Annex 1: Excel Templates": annex1.md
-      - "Annex 2: JSON Schema": annex2.md
   - Disclaimer: disclaimer.md
