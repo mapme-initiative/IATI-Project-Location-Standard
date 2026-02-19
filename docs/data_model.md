@@ -1,4 +1,4 @@
-# Annex 1: Excel Template for location-specific data collection
+# Data Schemas and templates for operationalizing the IATI standard regarding project location data 
 
 [Complete Excel Template for collecting location-specific data - English version](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/assets/excels/IATI_Project_Location_Data_Template_EN_V03.xlsx)
 
