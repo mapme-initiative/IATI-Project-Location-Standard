@@ -106,7 +106,7 @@ nav:
       - Guidelines: collection.md
       - Validation: validation.md
       - FAQs: faqs.md
-  - Annexes:
+  - Data Model:
       - "Annex 1: Excel Templates": annex1.md
       - "Annex 2: JSON Schema": annex2.md
   - Disclaimer: disclaimer.md
