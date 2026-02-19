@@ -11,7 +11,7 @@ In addition to the above-mentioned changes to the IATI location type list, this 
 
 [JSON Scheme of the location-specific part of the data model containing all elements of the above Excel template](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/IATI_project_core_schema_.json)
 
-To all the above schemes, we still have to add the **geographic vocabulary/ies** = admin unit repository/ies (ideally recommending only one) and potentially add it to the [IATI geographic vocabulary list)(https://iatistandard.org/en/iati-standard/203/codelists/geographicvocabulary/)
+To all the above schemes, we still have to add the **geographic vocabulary/ies** = admin unit repository/ies (ideally recommending only one) and potentially add it to the [IATI geographic vocabulary list](https://iatistandard.org/en/iati-standard/203/codelists/geographicvocabulary/)
 
 and we have to add some additional project-specific attributes we want to assign to locations ->
 
