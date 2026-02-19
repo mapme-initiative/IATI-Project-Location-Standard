@@ -104,8 +104,8 @@ nav:
   - Introduction: introduction.md
   - Data Collection:
       - Guidelines: collection.md
-      - Validation: validation.md
-      - FAQs: faqs.md
+  - Validation: validation.md
+  - FAQs: faqs.md
   - Data Model:
       - "Annex 1: Excel Templates": annex1.md
       - "Annex 2: JSON Schema": annex2.md
