@@ -102,8 +102,7 @@ extra:
 nav:
   - Home: index.md
   - Introduction: introduction.md
-  - Data Collection:
-      - Guidelines: collection.md
+  - Data Collection: collection.md
   - Validation: validation.md
   - FAQs: faqs.md
   - Data Model:
