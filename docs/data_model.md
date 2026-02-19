@@ -8,6 +8,7 @@ This list proposes changes to the following IATI codelist: [IATI location type c
 
 [Complete Excel Template for collecting location-specific data - English version](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/assets/excels/IATI_Project_Location_Data_Template_EN_V03.xlsx)
 In addition to the above-mentioned changes to the IATI location type list, this template uses the [IATI activity type codelist](https://iatistandard.org/en/iati-standard/203/codelists/activitystatus/) and proposes changes to the following IATI codelists: [activity date type](https://iatistandard.org/en/iati-standard/203/codelists/activitydatetype/) and [geographic exactness](https://iatistandard.org/en/iati-standard/203/codelists/geographicexactness/) 
+Once it becomes part of the IATI standard, it should use its respective [version](https://iatistandard.org/en/iati-standard/203/codelists/version/) 
 
 [JSON Scheme of the location-specific part of the data model containing all elements of the above Excel template](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/IATI_project_core_schema_.json)
 
