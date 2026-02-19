@@ -8,7 +8,7 @@
 
 [JSON Scheme of the location-specific part of the data model](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/IATI_project_core_schema_.json)
 
-To all the above schemes (except the complete Excel Template), we still have to add the project-specific attributes we want to assign to locations ->
+To all the above schemes, we still have to add some additional project-specific attributes we want to assign to locations ->
 
 # Current Draft of project-level attributes for the Standard - all to be discussed:
 
