@@ -1,0 +1,225 @@
+Location Type Theme (EN);"(IATI) Location Type Name (EN) =  A ""location type"" summarizes the output- or intervention-related type of a physical location or - in case there is no physical location related to a project activity (i.e. a so-called ""immaterial location type"") - its target area.";(IATI) Location Type Code (EN & FR);physical or immaterial location type class;Geodata Type;IATI Category/ie (EN & FR);(IATI) Location Type Description (EN);Compared with IATI Standard
+_Generic / Cross_Sectoral;building(s);BLDG;physical;point;S;a structure built for permanent use, as a house, factory, etc.;OLD
+_Generic / Cross_Sectoral;common / public space(s);CMN;physical;polygon;L;an area, park or pasture for community use;CHGD
+_Generic / Cross_Sectoral;equipment / materials ;EQPM;physical;point;S;movable items and resources used for specific activities, services, or operations;NEW
+_Generic / Cross_Sectoral;facility;FCL;physical;point;S;a building or buildings housing a center, institute, foundation, hospital, prison, mission, courthouse, etc.;OLD
+_Generic / Cross_Sectoral;factory;MFG;physical;point;S;one or more buildings where goods are manufactured, processed or fabricated;OLD
+_Generic / Cross_Sectoral;housing (development);DEVH;physical;polygon;L;a tract of land on which many houses of similar design are built according to a development plan;CHGD
+_Generic / Cross_Sectoral;hub / cluster / incubator;HUB;physical;point;S;a facility or location supporting innovation, collaboration, or business development;NEW
+_Generic / Cross_Sectoral;ICT-infrastructure / ICT-equipment;ICT;physical;point;S;hardware and related materials and infrastructure required for information and communication technology operations;NEW
+_Generic / Cross_Sectoral;micro, small & medium enterprises (MSME);MSME;physical;point;S;sites where micro, small and medium-sized enterprises are located;NEW
+_Generic / Cross_Sectoral;ministry;MIN;physical;point;S;government building where a ministry is located, serving administrative and policy functions;NEW
+_Generic / Cross_Sectoral;museum;MUS;physical;point;S;a building where objects of permanent interest in one or more of the arts and sciences are preserved and exhibited;OLD
+_Generic / Cross_Sectoral;office building;BLDO;physical;point;S;office building where public or business services are conducted;OLD
+_Generic / Cross_Sectoral;other physical;OTHP;physical;point;S;physical location not fitting any existing available location type in this repository;NEW
+_Generic / Cross_Sectoral;other immaterial;OTHI;immaterial;polygon;A;type of intervention that has no physical location, only a target area, and which is not fitting any other available immaterial location type in this repository;NEW
+_Generic / Cross_Sectoral;rehabilitation / reconstruction;REHA;physical;polygon;T;site or area where infrastructure or facilities are rehabiltated, restored or rebuilt;NEW
+_Generic / Cross_Sectoral;research institute / facility;ITTR;physical;point;S;a facility where research is carried out;CHGD
+_Generic / Cross_Sectoral;advisory facility / support;ADVFS;physical;point;A;a facility or location where advisory support services are being provided ;NEW
+_Generic / Cross_Sectoral;capacity development / training;CDT;immaterial;polygon;A;target area, usually admin unit, of interventions that are enhancing capacities, abilities, knowledge or skills for personal, professional or organizational growth;NEW
+_Generic / Cross_Sectoral;civil society support;CSS;immaterial;polygon;A;target area, usually admin unit, of mechanisms or environments fostering public engagement and strengthening community-based and other civil society organizations;NEW
+_Generic / Cross_Sectoral;digital services usage area;DIGIS;immaterial;polygon;A;target area, usually admin unit, of interventions that promote the use of digital services, apps or online resources;NEW
+_Generic / Cross_Sectoral;early warning system;EWS;immaterial;polygon;A;target area, usually admin unit, of mechanisms and services enabling timely information delivery for anticipating and mitigating critical events such as disasters and pandemics;NEW
+_Generic / Cross_Sectoral;environmental & social mgt system;ESMS;immaterial;polygon;A;target area, usually admin unit, of mechanisms and procedures to assess, analyse, manage and mitigate ecological and social aspects within projects or organizations;NEW
+_Generic / Cross_Sectoral;income generating activities (IGA);IGA;immaterial;polygon;A;target area, usually admin unit, of interventions that Initiatives aimed at increasing economic resources through productive means.;NEW
+_Generic / Cross_Sectoral;insurance (other);INSUR;immaterial;polygon;A;target area, usually admin unit, of insurance services that are not climate risk insurance and that are designed to provide protection against specific risks or uncertainties;NEW
+_Generic / Cross_Sectoral;matching grants distribution area;MGRA;immaterial;polygon;A;target area, usually admin unit, of financial contributions based on co-funding principles;NEW
+_Generic / Cross_Sectoral;political / institutional reforms (PBF / PBL);PBFL;immaterial;polygon;A;target area, usually admin unit, of processes that advance changes in governance frameworks or organizational structures;NEW
+_Generic / Cross_Sectoral;public  / social dialogue;PSDIA;immaterial;polygon;A;target area, usually admin unit, of mechanisms that encourage public exchanges between stakeholders for collective decision-making;NEW
+_Generic / Cross_Sectoral;saving groups / VSLA / SACCOs support;VSLA;immaterial;polygon;A;target area, usually admin unit, of interventions or mechanisms that facilitate community-based financial cooperation and resource pooling such as village-based savings and loans associations (VSLA) or  savings and credit cooperative organizations (SACCOs);NEW
+_Generic / Cross_Sectoral;sensitization / awareness raising (campaign);SENSA;immaterial;polygon;A;target area, usually admin unit, of campaigns or other communication activities intended to inform, mobilize or educate targeted audiences on specific topics;NEW
+_Generic / Cross_Sectoral;supply chains (support) area;SUPCH;immaterial;polygon;A;target area, usually admin unit, of systems or services to increase the value generated locally or to make supply chains more efficient;NEW
+_Generic / Cross_Sectoral;voucher(s) (system) distributrion area;VOUCH;immaterial;polygon;A;target area, usually admin unit, of interventions for allocating entitlements or credits to beneficiaries through organized schemes;NEW
+_Generic / Cross_Sectoral;slaugtherhouse;SLAU;physical;point;S;facility where animals are killed and processed for food production;NEW
+_Generic / Cross_Sectoral;mine(s);MN;physical;point;S;a site where mineral ores are extracted from the ground by excavating surface pits and subterranean passages;OLD
+_Generic / Cross_Sectoral;workshop(s);WRKS;physical;point;S;a building dedicated to hands-on activities, technical work, or small-scale manufacturing;NEW
+Agriculture / Rural_Development;sustainably farmed area(s);SFRMA;physical;polygon;V;an non-irrigated farm area under ecologically sustainable cultivation;NEW
+Agriculture / Rural_Development;cultivated area;CULT;physical;polygon;V;an area under cultivation (non-irrigated, no focus on ecological sustainability);OLD
+Agriculture / Rural_Development;garden(s);GDN;physical;point;S;an enclosure for displaying selected plant or animal life;OLD
+Agriculture / Rural_Development;grazing / rangeland (management) area;GRAZ;physical;polygon;L;a (managed rangeland) area of grasses and shrubs used for grazing;CHGD
+Agriculture / Rural_Development;improved soil / erosion control area;EROSC;physical;polygon;V;intervention area for soil improvement or erosion mitigation;NEW
+Agriculture / Rural_Development;irrigated field(s);FLDI;physical;polygon;L;a tract of level or terraced land which is irrigated;OLD
+Agriculture / Rural_Development;irrigation infrastructure;IRRIN;physical;point;S;constructions including headwork and equipment for distributing water to agricultural land;NEW
+Agriculture / Rural_Development;nursery(-ies) / seed bank;NSY;physical;point;S;a place where plants and / or trees and / or their seeds are propagated for transplanting or grafting;CHGD
+Agriculture / Rural_Development;food processing & value addition;PHPV;physical;point;T;facility where crops or livestock products are processed and enhanced;NEW
+Agriculture / Rural_Development;weir(s);WEIR;physical;point;S;a small dam in a stream, designed to raise the water level or to divert stream flow through a desired channel;OLD
+Agriculture / Rural_Development;agricultural extension services;AGEXT;immaterial;polygon;A;target area, usually admin unit, of services that transfer expertise and innovations to people engaged in agriculture;NEW
+Agriculture / Rural_Development;contract farming / PPP;CFRM;immaterial;polygon;A;target area, usually admin unit, of interventions that facilitate collaboration between producers and buyers for mutual benefit;NEW
+Agriculture / Rural_Development;farmers groups / cooperatives support;FGCO;immaterial;polygon;A;target area, usually admin unit, of interventions or entities strengthening collective efforts among agricultural producers;NEW
+Agriculture / Rural_Development;agroforestry area;AGFOR;physical;polygon;V;area under agro-sylviculture or forest farming land use management that integrates trees with crops or pasture and combines agricultural and forestry technologies;NEW
+Aquaculture / Fishery;aquaculture;AQUA;physical;point;H;"site for controlled cultivation (""aquafarming"") of aquatic organisms such as fish, crustaceans, mollusks, algae and aquatic plants ";NEW
+Aquaculture / Fishery;fisheries management area;FMA;physical;polygon;H;designated zone for the management and regulation of fishery activities;NEW
+Aquaculture / Fishery;certified sustainable aquaculture or fisheries (MSC, ASC);CSAQU;physical;point;H;aquaculture production sites verified for compliance with environmental and ethical standards in aquatic food provisioning;NEW
+Aquaculture / Fishery;coastguard station;COASG;physical;point;S;building where maritime safety operations and surveillance are managed and coordinated;NEW
+Aquaculture / Fishery;FAO catch-area;CATCHA;physical;polygon;H;geographic divisions of the oceans and seas defined by the FAO from where the caught fish originate and that are one of the basic requirements to ensure the traceability of fish products;NEW
+Aquaculture / Fishery;feed-mill;FEMIL;physical;point;S;processing facility for producing fish or other animal feed from raw agricultural products;NEW
+Aquaculture / Fishery;inland waters fishery;IFISH;physical;polygon;H;inland water ecosystem for harvesting aquatic species from non-marine ecosystems;NEW
+Aquaculture / Fishery;pond;PND;physical;point;H;a small standing waterbody;OLD
+Aquaculture / Fishery;small scale fisheries (SSF) zone;SSF;physical;polygon;H;exclusive coast and inshore water zones under artisanal stewardship by small-scale fishers communities;NEW
+Education;school (primary, secondary, college);SCH;physical;point;S;building(s) where primary, secondary or college instruction in one or more branches of knowledge takes place;CHGD
+Education;TVET school / infrastructure;TVETS;physical;point;S;building or facility for technical and vocational education and training;NEW
+Education;university;UNIV;physical;point;S;institution for higher education and academic research;NEW
+Education;scholarship program area;SCHPA;immaterial;polygon;A;target area, usually admin unit, of scholarship programs support;NEW
+Energy;area covered by off-grid renewable energy;OFGRE;physical;polygon;L;area powered by renewable energy sources, independently from central electrical networks / grids, for example local photovoltaic or hydropower grids or solar panels;NEW
+Energy;area covered by on-grid renewable energy;ONGRE;physical;polygon;L;area powered by renewable energy through central electrical networks / grids from public utility infrastructure;NEW
+Energy;biogas plant;PSBIO;physical;point;S;building or facility where organic matter is converted into renewable energy through biological processes;NEW
+Energy;electric power transmission & distribution (T&D);EPTD;physical;line;R;power line facilitating the movement of electrical energy between locations;NEW
+Energy;electric substation;ESST;physical;point;S;part of an electrical generation, transmission, and distribution system for transforming, switching, or control of electrical current within the grid;NEW
+Energy;energy efficiency measure(s);EEFFM;physical;point;S;site of interventions focusing on the minimization of energy consumption;NEW
+Energy;geothermal power plant;PSGEO;physical;point;S;building or facility where thermal energy derived from beneath the earth is harnessed for power generation;NEW
+Energy;hydrogen plant;PSHY;physical;point;S;building or facility dedicated to the production and storage of hydrogen for energy or industrial use;NEW
+Energy;hydropower plant / dam;PSH;physical;point;S;a building where electricity is generated from water power;CHGD
+Energy;solar power plant;PSS;physical;point;S;a building or facility where electricity is generated from photovoltaic power;NEW
+Energy;wind power plant;PSW;physical;point;S;facility where electricity is generated from wind energy;NEW
+Energy;district heating area / distribution;DHEAT;physical;polygon;L;area served by a centralized heat supply system;NEW
+Energy;battery energy storage system (BESS);BESS;physical;point;S;facility storing electricity for later use via battery technology;NEW
+Energy;fuel station;FUELS;physical;point;S;place where fuel for vehicles and machinery is dispensed;NEW
+Energy;charging station;CHARS;physical;point;S;place providing charging services for electric vehicles;NEW
+Energy;power station (other);PSO;physical;point;S;a building or facility for generating electric power by other means than solar, wind or hydropower;NEW
+Financial_Sector_Development;bank;BAN;physical;point;S;an establishment for the custody, loan, exchange or issue of money, for the extension of credit, and for facilitating the transmission of funds;OLD
+Financial_Sector_Development;banking branch / outlet;BANB;physical;point;S;a building where banking services are provided;NEW
+Financial_Sector_Development;company;COM;physical;point;S;main building or office of a business entity;NEW
+Financial_Sector_Development;credit guarantee fund;CGUAF;physical;point;S;facility or entity managing guarantees for loan repayment;NEW
+Financial_Sector_Development;financial institution;FI;physical;point;S;main building or office of a business / banking entity that provides service as an intermediary for different types of financial monetary transactions;NEW
+Financial_Sector_Development;fonds manager headquarter;FMGR;physical;point;S;main office / building of a fund management entity;NEW
+Financial_Sector_Development;free trade zone;ZNF;physical;polygon;S;an area, usually a section of a port, where goods may be received and shipped free of customs duty and of most customs regulations;OLD
+Financial_Sector_Development;industrial area / zone;INDS;physical;polygon;L;an area characterized by industrial activity;CHGD
+Financial_Sector_Development;microfinance institution (MFI);MFI;physical;point;S;main office / building of an institution providing microfinance services;NEW
+Financial_Sector_Development;bonds;BND;immaterial;polygon;A;target area, usually the country-level admin unit, of tradable financial assets serving as instruments for raising or lending capital;NEW
+Financial_Sector_Development;guarantees;GUA;immaterial;polygon;A;target area, usually admin unit, of financial instruments for the transfer of risk;NEW
+Financial_Sector_Development;loans;LOA;immaterial;polygon;A;target area, usually admin unit, of financial debt instruments for temporarily transferring funds to borrowers;NEW
+Financial_Sector_Development;subordinated loans;SLOA;immaterial;polygon;A;target area, usually admin unit, of financial debt instruments for temporarily transferring funds to borrowers that have a lower repayment priority in comparison to other credits;NEW
+Governance / Decentralization;ICT infrastructure (broadband / connectivity);ICTBB;physical;line;R;cable installations enabling high-speed digital communication;NEW
+Governance / Decentralization;ICT infrastructure (data center);ICTDC;physical;point;S;a building hosting servers and other hardware and equipment for secure storage and processing of information;NEW
+Governance / Decentralization;(communal) public infrastructure;PUBIN;physical;polygon;L;target area covering buildings and other installations and assets serving collective purposes within communities;NEW
+Governance / Decentralization;citizen service center;CITSC;physical;point;S;a building where administrative processes and public services for local residents are provided;NEW
+Governance / Decentralization;customs office;PSTC;physical;point;S;a building where customs and duties are paid on goods;CHGD
+Governance / Decentralization;fire station;FIRE;physical;point;S;building housing firefighters and/or fire fighting equipment;OLD
+Governance / Decentralization;media support;MEDIA;physical;point;S;building or site where information dissemination and public outreach are supported;NEW
+Governance / Decentralization;public (admin) training institute;PUBTI;physical;point;S;a building of an institution dedicated to advancing administrative skils and competencies in the public sector;NEW
+Governance / Decentralization;violence prevention;VIOPR;immaterial;polygon;A;target area, usually admin unit, of interventions aiming to reduce risk or incidence of conflict and harm in society;NEW
+Governance / Decentralization;cadastre / land management / tenure system / area;CADS;immaterial;polygon;A;target area, usually admin unit, of systems for documenting, managing, and regulating land and/or property ownership, possession, tenure, use and other rights, restrictions and responsibilites including parcel-based cadastre systems;NEW
+Governance / Decentralization;citizen participation / feedback (system);CITPT;immaterial;polygon;A;target area, usually admin unit, of mechanisms fostering citizens' involvement or inputs in decisions on public services, infrastructure, governance and policy-making;NEW
+Governance / Decentralization;decentralisation support & communal development;DECCD;immaterial;polygon;A;target area, usually admin unit, of interventions supporting geographical distribution of authority and capacity-strengthening at local levels;NEW
+Governance / Decentralization;democratization support;DEMS;immaterial;polygon;A;target area, usually admin unit, of processes encouraging responsive and inclusive public governance frameworks and processes;NEW
+Governance / Decentralization;digital transformation of public services;DTPUB;immaterial;polygon;A;target area, usually admin unit, of interventions to improve interactions between public authorities and citizens or the private sector using digital technologies;NEW
+Governance / Decentralization;domestic revenue mobilization;DOMRV;immaterial;polygon;A;target area, usually admin unit, of interventions facilitating improved collection and administration of public funds;NEW
+Governance / Decentralization;intergovernmental fiscal transfer mechanism;IFTRM;immaterial;polygon;A;target area, usually admin unit, of interventions guiding redistribution of resources among governmental entities;NEW
+Governance / Decentralization;public financial management (PFM);PFM;immaterial;polygon;A;target area, usually admin unit, of systems and practices ensuring efficient allocation and oversight of public funds;NEW
+Health;clinic;HSPC;physical;point;S;a medical facility associated with a hospital for outpatients;OLD
+Health;dispensary;HSPD;physical;point;S;a building where medical or dental aid is dispensed;OLD
+Health;health post;HSPP;physical;point;S;a small medical facility providing basic health services;NEW
+Health;hospital;HSP;physical;point;S;a building in which sick or injured, especially those confined to bed, are medically treated;OLD
+Health;laboratory;LAB;physical;point;S;facility for scientific, medical, or diagnostic analysis;NEW
+Health;medical isolation station;MEDST;physical;point;S;facility for isolating patients to prevent disease spread;NEW
+Health;medical products development;MEDPD;physical;point;S;building or site dedicated to research and development of medical products;NEW
+Health;distribution of medical products / contraceptives;MEDIS;immaterial;polygon;A;target area, usually admin unit, of distribution of medical products / contraceptives incl. vaccines;NEW
+Health;social franchising / NGO clinics;SOCFR;immaterial;polygon;A;target area, usually admin unit, of NGOs and social franchised businesses offering subsidized products and services that people need - such as healthcare, water, sanitation, energy, and education;NEW
+Health;social marketing;SOCMK;immaterial;polygon;A;target area, usually admin unit, of interventions promoting health-related products, services or behaviors;NEW
+Mobility / Transport;airplane(s);AIRPL;physical;point;S;main location for airplanes parking, storage and maintenance;NEW
+Mobility / Transport;airport;AIRP;physical;point;S;a place where aircraft regularly land and take off, with runways, navigational aids, and major facilities for the commercial handling of passengers and cargo;OLD
+Mobility / Transport;aviation safety system / flight control;AVSS;physical;point;S;main site of technical installations overseeing the secure movement of aircraft within airspace;NEW
+Mobility / Transport;boat(s) / ship(s) / -yard;BOATY;physical;point;S;a boatyard, also called a shipyard or dockyard is a place where boats or ships are built and repairedÿor another location of boats / ships ;NEW
+Mobility / Transport;bridge;BDG;physical;point;S;a structure erected across an obstacle such as a stream, road, etc., in order to carry roads, railroads, and pedestrians across;OLD
+Mobility / Transport;bus rapid transit (BRT) / bus system;BRT;physical;polygon;S;area covered by a high-capacity bus-based transit system that delivers fast, reliable, high-quality, safe, and cost-effective services;NEW
+Mobility / Transport;buses;BUS;physical;point;S;main location for bus parking, storage and maintenance;NEW
+Mobility / Transport;rolling stock;ROLST;physical;point;S;main location for parking, storage and maintenance of powered and unpowered railway vehicles, for example, trains, locomotives, electric / diesel multiple units (DMU/EMU), freight and passenger waggons, cars or coaches;NEW
+Mobility / Transport;ferry (line, system);FERRY;physical;line;R;water routes track or system for transporting people and / or vehicles;NEW
+Mobility / Transport;intraurban rail infrastructure;RINTRA;physical;polygon;R;intraurban light rail transit system: right rail, subway, metro, tramway;NEW
+Mobility / Transport;interurban rail infrastructure;RINTER;physical;line;R;interurban heavy rail system;NEW
+Mobility / Transport;highway;HIGHW;physical;line;R;major road connecting regions, intended for vehicle traffic;NEW
+Mobility / Transport;depot / marshalling yard;MARY;physical;point;S;facility for parking, storing, maintaining, and routing railway vehicles and other rolling stock ;NEW
+Mobility / Transport;other road-based vehicles;ORBVE;physical;point;S;site for parking or storage of vehicles other than buses, trains, and ships;NEW
+Mobility / Transport;pedestrian lane(s) / bike lane(s);LANE;physical;line;R;dedicated pathways designed for non-motorized movement and activity of pedestrians and / or cyclists ;NEW
+Mobility / Transport;port;PRT;physical;point;L;a place provided with terminal and transfer facilities for loading and discharging waterborne cargo or passengers, usually located in a harbor;OLD
+Mobility / Transport;rail operation control system / intelligent transport system (ITS);ROCS;physical;point;S;location of a traffic and / or mobility management  system for road transport, including infrastructure, vehicles and users, as well as for interfaces with other modes of transport;NEW
+Mobility / Transport;railroad station;RSTN;physical;point;S;a railroad, railway or train station is a facility comprising ticket office, platforms, tracks etc. for loading and unloading train passengers and freight incl. intermodal passenger hub;OLD
+Mobility / Transport;railroad;RR;physical;line;R;a permanent twin steel-rail track on which freight and passenger cars move long distances;OLD
+Mobility / Transport;road;RD;physical;line;R;an open way with improved surface for transportation of animals, people and vehicles;OLD
+Mobility / Transport;traffic management center / IST;TMITS;physical;point;S;traffic management center / intelligent transport system (ITS);NEW
+Mobility / Transport;(multimodal) logistic node / warehouse;SHSE;physical;point;S;a building for storing goods, especially provisions ;CHGD
+Mobility / Transport;waterway(s) (system);WATERW;physical;polygon;H;area or network of natural or engineered channels facilitating the movement of waterborne traffic;NEW
+Mobility / Transport;bus station / terminal;BUSST;physical;point;S;bus station and / or  (intermodal) passenger hub containing a parking area for cars or large trucks;NEW
+Peace / Displacement / Fragility;camp(s);CMP;physical;point;S;a site occupied by tents, huts, or other shelters for temporary use;OLD
+Peace / Displacement / Fragility;emergency supplies distribution area;EMSD;physical;polygon;L;organized space for allocating aid materials and resources in crisis situations;NEW
+Peace / Displacement / Fragility;food access point;FAP;physical;point;S;organized space where food is distributed to individuals, families or other groups;NEW
+Peace / Displacement / Fragility;internally displaced persons (IDP) camp;CMPID;physical;point;S;a camp used by people affected by domestic disasters, conflict or other internal migration pressures;NEW
+Peace / Displacement / Fragility;refugee camp;CMPRF;physical;point;S;a camp used by refugees;OLD
+Peace / Displacement / Fragility;community policing;CPOL;immaterial;polygon;A;target area, usually admin unit, of interventions building trust and security among residents through collaborative safety measures;NEW
+Peace / Displacement / Fragility;disarmament, demobilisation, reintegration of combatants (DDR);DDR;immaterial;polygon;A;target area, usually admin unit, of interventions aiding former combatants in returning to civilian life and fostering stability;NEW
+Peace / Displacement / Fragility;election support;ELEC;immaterial;polygon;A;target area, usually admin unit, of services and systems facilitating the proper conduct and oversight of electoral processes;NEW
+Peace / Displacement / Fragility;reparation payments;REPAP;immaterial;polygon;A;target area, usually admin unit, of delivering compensatory resources to affected individuals or groups;NEW
+Social_Protection;child protection services;CHILP;immaterial;polygon;A;target area, usually admin unit, of interventions safeguarding minors from abuse, neglect, or exploitation;NEW
+Social_Protection;women's shelter / GBV support;WOSH;physical;point;S;safe building or encampment providing assistance for women and girls facing gender-based violence or other types of insecurity;NEW
+Social_Protection;basic social services;BASSS;immaterial;polygon;A;target area, usually admin unit, of services that ensure minimum standards of health, education, and/or wellbeing for the public;NEW
+Social_Protection;cash- / food-for-work;CFFW;immaterial;polygon;A;target area, usually admin unit, of schemes exchanging remuneration or food provisions for productive activities;NEW
+Social_Protection;cash transfers;CASHT;immaterial;polygon;A;target area, usually admin unit, of arrangements distributing monetary benefits directly to eligible recipients;NEW
+Social_Protection;climate risk insurance;CLRIN;immaterial;polygon;A;target area, usually admin unit, of insurance services addressing financial impacts of risks arising from extreme weather events that are increasing in frequency and intensity because of climate change;NEW
+Social_Protection;social protection system;SPROS;immaterial;polygon;A;target area, usually admin unit, of integrated policies and support systems designed to reduce vulnerability and poverty;NEW
+Social_Protection;employment subsidies;EMPS;immaterial;polygon;A;target area, usually admin unit, of financial incentives promoting job creation and / or workforce increase;NEW
+Protected_and_Conserved_Areas;strict nature reserve (IUCN Cat Ia);SNRES;physical;polygon;V;area which is protected from all but light human use in order to protect its biodiversity and also possibly its geological / geomorphological features;NEW
+Protected_and_Conserved_Areas;wilderness area (IUCN Cat Ib);WILD;physical;polygon;V;a protected domain in which biodiversity and ecosystem processes (including evolution) are allowed to flourish or experience restoration if previously disturbed by human activity;NEW
+Protected_and_Conserved_Areas;national park (IUCN Cat II);NATP;physical;polygon;V;area managed in a way that may contribute to local economies through promoting educational and recreational tourism on a scale that will not reduce the effectiveness of conservation efforts;NEW
+Protected_and_Conserved_Areas;natural monument or feature (IUCN Cat III);NATMO;physical;point;V;a smaller area or site that is specifically allocated to protect a natural monument and its surrounding habitats;NEW
+Protected_and_Conserved_Areas;habitat or species management area (IUCN Cat IV);HSMA;physical;polygon;V;area focusing on the maintenance, conservation, and restoration of particular species and habitats, possibly through traditional means, and public education;NEW
+Protected_and_Conserved_Areas;protected landscape or seascape (IUCN Cat V);PLOS;physical;polygon;L;a body of land or ocean with an explicit natural conservation plan, but usually also accommodating a range of for-profit activities;NEW
+Protected_and_Conserved_Areas;protected area with sustainable use of natural resources (IUCN Cat VI);PASNR;physical;polygon;V;vast area that already has a low level of human occupation or in which local communities and their traditional practices have had little permanent impact on the environmental health;NEW
+Protected_and_Conserved_Areas;other effective area-based conservation measures (OECM);OECM;immaterial;polygon;V;sites outside of protected areas that are governed and managed in ways that deliver the long-term in situ conservation of biodiversity;NEW
+Protected_and_Conserved_Areas;indigenous & community conservation area (ICCA);ICCA;physical;polygon;L;specific areas (territories of life) being actively conserved by indigenous peoples and local communities, i.e., natural spaces de facto governed by Indigenous peoples or local communities that could include collective commons, areas and territories of self-defined, peer-reviewed communities, other than ITTs;NEW
+Protected_and_Conserved_Areas;indigenous and traditional territories (ITT);ITT;physical;polygon;L;territories traditionally inhabited, used, governed, and managed by the indigenous people and local communities;NEW
+Protected_and_Conserved_Areas;wildlife management area / game reserve;WILL;physical;polygon;V;area supporting the safe coexistence and managed utilization of wild animal populations;NEW
+Protected_and_Conserved_Areas;marine protected area (MPA);MPA;physical;polygon;H;a protected area of the world's seas, oceans, or estuaries designated to preserve habitats and marine species, except no-take zones;NEW
+Protected_and_Conserved_Areas;locally managed marine areas (LMMA);LMMA;physical;polygon;H;areas of the world's seas, oceans, or estuaries overseen by local community groups to maintain marine ecosystems and resources;NEW
+Protected_and_Conserved_Areas;private protected area / conservation easement;PPA;physical;polygon;V;area conserved through private stewardship arrangements or contractual agreements;NEW
+Protected_and_Conserved_Areas;exclusive economic zone (EEZ);EEZ;physical;polygon;L;area of the sea in which a sovereign state has exclusive rights regarding the exploration and use of marine resources, including energy production from water and wind;NEW
+Biodiversity_Conservation;indigenous peoples & local communities (IP&LC);IPALC;physical;polygon;L;areas managed or influenced by distinct and diverse indigenous groups and communities that maintain close ties to their territories and traditions, playing a crucial role in environmental management;NEW
+Biodiversity_Conservation;no-take zone;NTZ;physical;polygon;H;a marine protected area (MPA) permanently set aside from direct human disturbance, where all methods of fishing and extraction of natural materials, dumping, dredging or construction activities are prohibited;NEW
+Biodiversity_Conservation;visitor center / education facility;VISIT;physical;point;S;building(s) for learning, outreach, and engagement regarding natural environments;NEW
+Biodiversity_Conservation;regeneration / restoration / rehabilition area;REGEN;physical;polygon;V;land area dedicated to protecting, enhancing or restoring ecological health and functions of natural environments including forests;NEW
+Biodiversity_Conservation;watershed / catchment conservation area;WTRS;physical;polygon;H;land area that safeguards the natural flow and quality of freshwater resources;NEW
+Biodiversity_Conservation;fire management area;FIMA;physical;polygon;V;vegetation area where fire management measures are being carried out;NEW
+Biodiversity_Conservation;key biodiversity area (KBA) with financed management;KBA;physical;polygon;V;areas that contribute significantly to the global persistence of biodiversity in terrestrial, freshwater and marine environments with secured funding for management;NEW
+Biodiversity_Conservation;buffer zone around a protected or sensitive area;BUF;physical;polygon;V;buffer zone around a protected area or sensitive site;NEW
+Biodiversity_Conservation;invasive species management area;INVA;physical;polygon;V;target area of interventions reducing or eliminating detrimental non-native organisms;NEW
+Biodiversity_Conservation;ranger station / field base;STNF;physical;point;S;a collection of buildings and facilities (field base) for carrying out range and forest management;CHGD
+Biodiversity_Conservation;re- / afforestation area;RAFFA;physical;polygon;V;area designated for planting and fostering new tree vegetation to boost ecological value;NEW
+Biodiversity_Conservation;biodiversity offset / compensation area incl. PFES;PFES;physical;polygon;L;area where  ecological compensation measures are implemented to fully compensate for biodiversity impacts associated with economic development, through the planning process;NEW
+Biodiversity_Conservation;certified sustainable forest management (FSC, Rainforest Alliance, PEFC);CSFM;physical;polygon;V;area covered by a certification system to ensure environmentally responsible, socially beneficial and economically viable management of forests;NEW
+Biodiversity_Conservation;ecological corridor / connectivity area;CORR;physical;polygon;V;areas managed to restore effective biological connectivity between larger ecosystems promoting movement and interaction among wildlife populations;NEW
+Biodiversity_Conservation;monitoring and research sites;MONRE;physical;polygon;V;biodiversity observation area;NEW
+Biodiversity_Conservation;harvesting sites for NTFPs and other biodiversity products;NTFP;physical;polygon;V;an area dominated by trees where non-timber forest products and other biodiversity products are being harvested;NEW
+Urban_Infrastructure;(urban) street;ST;physical;line;R;a paved urban thoroughfare;CHGD
+Urban_Infrastructure;city district / urban development;CDUDV;physical;polygon;A;area characterized by a concentration of residential, commercial, and public facilities and high population density, managed for organized growth and improved living standards;NEW
+Urban_Infrastructure;market (shopping area);MKT;physical;point;S;a place where goods are bought and sold at regular intervals;CHGD
+Urban_Infrastructure;parcs & other green areas;PARC;physical;point;V;publicly accessibles areas covered by vegetation, designated to provide recreational opportunities, support urban biodiversity, or enhance environmental quality within built environments;NEW
+Urban_Infrastructure;shopping center or mall;SHOPC;physical;point;S;"an urban shopping area featuring a variety of shops surrounding a usually open-air concourse reserved for pedestrian traffic; or a large suburban building or group of buildings containing various shops with associated passageways";OLD
+Urban_Infrastructure;slum upgrading;SLUMU;physical;polygon;P;neglected urban zone of high population density undergoing improvements to physical infrastructure and living conditions;NEW
+Urban_Infrastructure;street lighting;STLIG;physical;line;R;linear arrangement of installed electric light units enhancing visibility and safety along pathways, streets and roads;NEW
+Waste;recycling facility ;RECYC;physical;point;S;facility where materials are processed for re-use instead of disposal;NEW
+Waste;improved waste collection;IWCL;physical;polygon;L;area benefiting from advanced practices for gathering and handling garbage;NEW
+Waste;landfill;LNDF;physical;point;S;a place for trash and garbage disposal in which the waste is buried between layers of earth to build up low-lying land;OLD
+Waste;landfill gas capture and treatment;LFGCT;physical;point;S;facility for capturing and processing emissions from decomposition within waste repositories;NEW
+Waste;mechanical-biological treatment plant;MBTPL;physical;point;S;facility relying on a combination of physical and biological processes to treat waste;NEW
+Waste;other waste treatment plants;OWTPL;physical;point;S;composting plant, fermentation plant, waste sorting plant and other waste treatment plants ;NEW
+Waste;transfer station;TRST;physical;point;S;intermediate facility consolidating waste for onward transport or disposal;NEW
+Waste;waste-to-energy plant;WTEPL;physical;point;S;facility converting solid waste material into usable forms of energy;NEW
+Water_Management;water pump;PMPW;physical;point;S;a facility for pumping water from a well or through a pipeline;CHGD
+Water_Management;desalination plant;DESPL;physical;point;S;facility for separating drinking water from saline sources;NEW
+Water_Management;dezentralized sanitation (area);DCSAN;physical;polygon;L;service area covering distributed solutions for the treatment of wastewater on-site;NEW
+Water_Management;drinking water supply;DWTRS;physical;polygon;L;service area providing populations with potable water for daily use;NEW
+Water_Management;water pipeline;WATPI;physical;line;H;drinking water transport pipeline, including water outlet / pipeline;NEW
+Water_Management;drinking water treatment plant (without desalination);DWTPL;physical;point;S;facility utilizing filtration and purification techniques for safe water provision;NEW
+Water_Management;flood protection;FLOOP;physical;point;T;infrastructure or measures designed to reduce risks associated with rising water levels;NEW
+Water_Management;reservoir(s);RSV;physical;point;H;an artificial pond or lake;OLD
+Water_Management;sanitary facility;SAN;physical;point;S;facility for use by the general public that includes a toilet and sink and may include a urinal and/or shower ;NEW
+Water_Management;sewage treatment plant;SWT;physical;point;S;facility for the processing of sewage and/or wastewater;OLD
+Water_Management;sewer network;SEWN;physical;polygon;H;underground system channeling liquid waste away from inhabited areas;NEW
+Water_Management;sludge treatment & disposal;SLUDD;physical;point;S;facility for handling semi-solid residues from water treatment;NEW
+Water_Management;stormwater network / system;SWTRN;physical;polygon;H;arrangement capturing and directing excess rainfall for flood prevention;NEW
+Water_Management;water intake;WTRIN;physical;point;H;point of access for withdrawing freshwater from natural or artificial sources;NEW
+Water_Management;water re-use;WTRRE;physical;point;H;facility for the utilization of treated effluents for secondary applications;NEW
+Water_Management;water tank;RSVT;physical;point;H;a contained pool or tank of water at, below, or above ground level;OLD
+Water_Management;well;WLL;physical;point;H;a cylindrical hole, pit, or tunnel drilled or dug down to a depth from which water, oil, or gas can be pumped or brought to the surface;OLD
+Water_Management;hydro-meteorological measurement system;HMMS;immaterial;polygon;A;target area, usually admin unit, of instruments or a network tracking water cycle dynamics and weather patterns (a.o. wind speed, evaporation, barometric pressure, humidity, particle size);NEW
+Water_Management;water resources protection area;WRPA;physical;polygon;H;area designated to preserve hydrological features and prevent contamination;NEW
+Water_Management;watercourse;WTRC;physical;line;H;a natural, well-defined channel produced by flowing water, or an artificial channel / canal designed to carry flowing water;OLD
