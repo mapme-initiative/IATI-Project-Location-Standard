@@ -1,4 +1,4 @@
-| Location Type Theme (EN) | (IATI) Location Type Name (EN) | (IATI) Location Type Code (EN & FR) | physical or immaterial location type class | Geodata Type | IATI Category/ie (EN & FR) | (IATI) Location Type Description (EN) | Compared with IATI Standard |
+| Location Type Theme (EN)|(IATI) Location Type Name (EN) | (IATI) Location Type Code (EN & FR) | physical or immaterial location type class | Geodata Type | IATI Category/ie (EN & FR) | (IATI) Location Type Description (EN) | Compared with IATI Standard |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | _Generic / Cross_Sectoral | building(s) | BLDG | physical | point | S | a structure built for permanent use, as a house, factory, etc. | OLD |
 | _Generic / Cross_Sectoral | common / public space(s) | CMN | physical | polygon | L | an area, park or pasture for community use | CHGD |
