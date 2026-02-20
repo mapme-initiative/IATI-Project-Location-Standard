@@ -1,4 +1,4 @@
-Location Type Theme (EN);(IATI) Location Type Name (EN) =  A "location type" summarizes the output- or intervention-related type of a physical location or - in case there is no physical location related to a project activity (i.e. a so-called "immaterial location type") - its target area;Location Type Code (EN & FR);physical or immaterial location type class;Geodata Type;IATI Category/ie (EN & FR);Location Type Description (EN);Compared with IATI Standard
+Location Type Theme (EN);(IATI) Location Type Name (EN);Location Type Code (EN & FR);physical or immaterial location type class;Geodata Type;IATI Category/ie (EN & FR);Location Type Description (EN);Compared with IATI Standard
 _Generic / Cross_Sectoral;building(s);BLDG;physical;point;S;a structure built for permanent use, as a house, factory, etc.;OLD
 _Generic / Cross_Sectoral;common / public space(s);CMN;physical;polygon;L;an area, park or pasture for community use;CHGD
 _Generic / Cross_Sectoral;equipment / materials ;EQPM;physical;point;S;movable items and resources used for specific activities, services, or operations;NEW
@@ -223,4 +223,5 @@ Water_Management;well;WLL;physical;point;H;a cylindrical hole, pit, or tunnel dr
 Water_Management;hydro-meteorological measurement system;HMMS;immaterial;polygon;A;target area, usually admin unit, of instruments or a network tracking water cycle dynamics and weather patterns (a.o. wind speed, evaporation, barometric pressure, humidity, particle size);NEW
 Water_Management;water resources protection area;WRPA;physical;polygon;H;area designated to preserve hydrological features and prevent contamination;NEW
 Water_Management;watercourse;WTRC;physical;line;H;a natural, well-defined channel produced by flowing water, or an artificial channel / canal designed to carry flowing water;OLD
+
 
