@@ -3,51 +3,50 @@
     "$id": "project_core_schema.json",
     "description": "This schema defines the structure of the IATI project location standard. It is used to validate the project location data provided by the project counterparts.",
     "properties": {
-        "scheme_version": {
-            "type": "string",
+        "Template Version": {
+            "Type": "Decimal",
             "enum": [
-                "1.0"
+                "3.0"
             ]
         },
-    "f_id": {
-            "description": "For new locations, this column is empty. For updates, your project counterpart will provide you with a list of unique field ID numbers in this file to ensure that updated location IDs match with the former ones.",
-            "type": "string"
+        "Field ID": {
+            "Explanation": "For new locations, this column will be empty. For updates,  KfW will provide you with the list of f_id numbers of this file to ensure that the updated field ids match with the former ones.",
+            "Type": "Integer"
         },
-        "donor_project_no": {
-            "description": "Every project location in the IATI Project Location Standard must be assigned to its respective (IATI) donor project number, which is provided by the respective partner, donor or implementing agency.",
-            "type": "string"
+        "Donor Project No.": {
+            "Explanation": "Every project location must be assigned to its respective BMZ project number.",
+            "Type": "Integer"
         },
-         "project_acronym": {
-            "description": "Please enter the acronym used for the name/title of the project to be visible on your map.",
-            "type": "string"
+         "Abbreviation of project name (project acronym)": {
+            "Explanation": "Enter the acronym used for the name/title of the project (e.g. HREII) to be visible on your map. If the project has multiple phases, please add the number of the phase belonging to the before-stated KfW Project-No. ",
+            "Type": "Text"
         },
-        "data_provider": {
-            "description": "Legal entity that provided the data here (= legal authorship).",
-            "type": "string"
+        "Data Provider (Institution Name)": {
+            "Explanation": "Legal Entity who owns the data provided here (= legal authorship).",
+            "Type": "Text"
         },
-        "publishing_restrictions": {
-            "description": "Indicates if this information is collected in fragile regions and should therefore be omitted from publicly available reports.",
+        "Publishing restrictions due to security reasons": {
+            "Explanation": "Indicates if the exact location is collected in fragile areas (e.g. of severe civil conflict or war) and should therefore be omitted from publicly available reports.",
             "enum": [
                 "yes ",
                 "no"
             ],
-            "type": "string"
+            "Type": "Categorical"
         },
-        "date_of_data_collection": {
-            "description": "Date of data collection or latest update. In case only the year is available please choose the 1st of January i.e. YYYY-01-01",
-            "format": "date",
-            "type": "string"
+        "Date of data collection or latest update": {
+            "Explanation": "Date of data collection or latest update (if date of data collection is unknown). In case only the year is available please choose the 1st of january e.g. 2022-01-01.",
+            "Type": "Date"
         },
-        "related_community": {
-            "description": "You may enter a village, hamlet, or neighborhood name that relates to this location. This can serve to manually add smaller community or administrative unit names not identified in existing global databases.",
-            "type": "string"
+        "Related Community / Village / Neighborhood": {
+            "Explanation": "Enter a community, village, hamlet or neighbourhood name that relates to this location, this can serve for manually add smaller administrative unit names that are not in global databases.",
+            "Type": "Text"
         },
-        "location_name": {
-            "description": "Unique name of the project site and its (main) activity incl local MIS-/GIS-ID, if availabe. This will be used as reference for line and polygon data.",
-            "type": "string"
+        "Location Name": {
+            "Explanation": "Unique name of the project site and its (main) activity incl local MIS-/GIS-ID, if availabe. This will be used as reference for line and polygon data.",
+            "Type": "Text"
         },
-        "location_activity_status": {
-            "description": "The activity status at the location according to the IATI standard.",
+        "Location Activity Status": {
+            "Explanation": "The location activity status according to the IATI standard. If you are unaware of the current status please choose [NA].",
             "enum": [
                 "NA",
                 "Pipeline/identification",
@@ -58,25 +57,23 @@
                 "Suspended",
                 "Other"
             ],
-            "type": "string"
+            "Type": "Categorical"
         },
-        "activity_start_date": {
-            "description": "Approximate planned or actual start date of activities on the ground.",
-            "format": "date",
-            "type": "string"
+        "Planned or actual start date of activity at the location": {
+            "Explanation": "Aprox. planned or actual start date of implementation of activities on the ground. This can be e.g. the date when construction work is planned to begin. For no information enter 2100-01-01.",
+            "Type": "Date"
         },
-        "activity_end_date": {
-            "description": "Approximate planned or actual end date of implementation of activities on the ground.",
-            "format": "date",
-            "type": "string"
+        "Planned or actual end date of activity at the location": {
+            "Explanation": "Aprox. planned or actual end date of activities on the ground. This can be e.g. the date when the project is planned to cease implementation activities. For no information enter 2100-01-01.",
+            "Type": "Date"
         },
-        "activity_description": {
-            "description": "A short description of the main project activity in this location.",
-            "type": "string"
+        "Activity Description": {
+            "Explanation": "A short description of the main project activity in this location, e.g., hydropower plant construction or construction of small irrigation systems.",
+            "Type": "Text"
         },
-        "location_type_theme": {
-            "description": "location type preselection field",
-            "type": "string",
+        "Location Type Theme": {
+            "Explanation": "Sectoral / cross-sectoral location type preselection field, see table sheets [Location Types] & KC Themes. If there is no fit,  select [_Generic/Crosssect.] here and then [other physical/immaterial] in the next column.",
+            "Type": "Categorical",
             "enum": [
                 "_Generic / Cross_Sectoral",
                 "Agriculture / Rural_Development",
@@ -96,9 +93,9 @@
                 "Water_Management"
             ]
         },
-        "location_type_name": {
-            "description": "most appropriate location type",
-            "type": "string",
+        "Location Type Name": {
+            "Explanation": "After selecting the KC Theme, choose the most appropriate location type, see table sheet [Location Types]. If there is no fit please select [other phys./imm]",
+            "Type": "Categorical",
             "enum": [
                 "building(s)",
                 "common / public space(s)",
@@ -143,7 +140,6 @@
                 "irrigation infrastructure",
                 "nursery(-ies) / seed bank",
                 "food processing & value addition",
-                "restored / rehabilitated land area",
                 "weir(s)",
                 "agricultural extension services",
                 "contract farming / PPP",
@@ -251,7 +247,7 @@
                 "disarmament, demobilisation, reintegration of combatants (DDR)",
                 "election support",
                 "reparation payments",
-                "child protection services"
+                "child protection services",
                 "women's shelter / GBV support",
                 "basic social services",
                 "cash- / food-for-work",
@@ -304,7 +300,6 @@
                 "mechanical-biological treatment plant",
                 "other waste treatment plants",
                 "transfer station",
-                "waste sorting plant",
                 "waste-to-energy plant",
                 "water pump",
                 "desalination plant",
@@ -328,35 +323,46 @@
                 "watercourse"
             ]
         },
-        "geographic_exactness": {
-            "description": "Please use 'exact' if the end destination of a financial flow is geographically known, and it is not an administrative unit, and if you do not face security restrictions to do so. Otherwise, please choose 'approximate (yet unknown)', 'approximate (security)', or 'approximate (admin unit)'",
+        "Geographic Exactness": {
+            "Explanation": "Use [exact] if the exact coordinates are known + no security restrictions apply. Otherwise, use [approximate (security)] or [approx. (yet unknown)]. If the target area is an admin unit, use [approx. (admin unit)]."
             "enum": [
                 "exact",
                 "approximate (yet unknown)",
                 "approximate (security)",
                 "approximate (admin unit)"
             ],
-            "type": "string"
+            "Type": "Categorical"
+        }, 
+        "Latitude": {
+            "Explanation": "Enter the Latitude (at least 5 digits!) measured with a GPS device (or centroid or admin unit polygon for approximate locations). Use WGS 84 as the Coordinate Reference System (EPSG:4326)."
+            "Type": "Decimal"  
+        }, 
+        "Longitude": {
+            "Explanation": "Enter the Longitude (at least 5 digits!) measured with a GPS device (or centroid or admin unit polygon for approximate locations). Use WGS 84 as the Coordinate Reference System (EPSG:4326)."
+            "Type": "Decimal" 
         }
+        
      },
-    "required": [
-        "f_id",
-        "scheme_version",
-        "donor_project_no",
-        "project_acronym".
-        "data_provider",
-        "publishing_restrictions",
-        "date_of_data_collection",
-        "related_community",
-        "location_name",
-        "location_activity_status",
-        "activity_start_date",
-        "activity_end_date",
-        "activity_description",
-        "location_type_theme",
-        "location_type_name",
-        "geographic_exactness"
+    "Required": [
+        "Field ID",
+        "Template Version",
+        "Donor Project No.",
+        "Abbreviation of project name (project acronym)",
+        "Data Provider (Institution Name)",
+        "Publishing restrictions due to security reasons",
+        "Date of data collection or latest update",
+        "Related Community / Village / Neighborhood",
+        "Location name",
+        "Location Activity Status",
+        "Planned or actual start date of activity at the location",
+        "Planned or actual end date of activity at the location",
+        "Activity Description",
+        "Location Type Theme",
+        "Location Type Name",
+        "Geographic Exactness", 
+        "Latitude", 
+        "Longitude"
      ],
-    "title": "IATI Project Location Standard",
-    "type": "object"
+    "Title": "IATI Project Location Standard",
+    "Type": "object"
 }
