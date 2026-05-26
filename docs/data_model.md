@@ -101,14 +101,14 @@ Based on the defined requirements and the strengths and weaknesses of the variou
 | Name | Main Use(s) / Authoritativeness / Resp. (Dis-)Advantages | Data sources | Accuracy | Update Frequency | Admin levels | Access | Flexible representation of boundaries |
 |------|----------------------------------------------------------|--------------|----------|------------------|--------------|--------|---------------------------------------|
 | National Governments | per country, authoritative, national boundaries may be disputed | Governments | Varying | Varying | Varying | Varying | NO |
-| HDX COD AB (OCHA Global Subnational Admin Boundaries) | Most accurate & recent per country, but only 110 countries yet | UN country offices | High (OCHA ArcGIS Server) | Frequent | Depends on the country | Free | YES |
-| Fieldmaps.io | Covering more than one country, world mapping | HDX, Geoboundaries | High (OCHA + local gov) | Frequent (but based on one person) | Up to level 4 | Free | YES |
-| World Bank Official Boundaries | Per country, incl. Non-Determined Legal Status Areas (NDLSA), ocean mask | WB Country Experts, HDX, FAO GAUL | High | Twice a year | Up to level 2 | Free | NO (adheres to WB lvl 0 standards) |
-| FAO (GAUL) | Covering more than one country; additional UNSALB data of 10 coun-tries is authoritative, but not recent | HDX, Geoboundaries, SALB | High (official) they validate the units directly with governments | Last updated 2024 (but long break in update from 2015 to 2024, used to be yearly) Next update: 2026 | Up to level 2 | Free | YES |
-| Geoboundaries | Very comprehensive, but needs processing (not edge-matched, not hierarchical) | Government sources, OpenStreetMap, Wikipedia | High | Last updated 2023 | Up to level 4 | Free | NO (USA pov) |
-| OpenStreetMap | dataset of last resort (min. 8 admin levels), clean nesting data not always available, not authoritative, partly non-hierarchical | OSM contributors | Varying (crowdsourced) | Continuous (but user based) | 11 levels | Free | NO |
-| GADM | Highly simplified, high level of aggregation | Unknown data source (Info not available) | Medium | Every 2-3 years | Up to level 4 | Free for non commercial use | NO |
-| Mapbox | Very accurate, covering all countries | Commercial supplier | High | Unknown | Up to 4 | Commercial | YES |
+| [HDX COD AB (OCHA Global Subnational Admin Boundaries)](https://data.humdata.org/dataset/cod-ab-global) | Most accurate & recent per country, but only 110 countries yet | UN country offices | High (OCHA ArcGIS Server) | Frequent | Depends on the country | Free | YES |
+| [Fieldmaps.io](https://fieldmaps.io/) | Covering more than one country, world mapping | HDX, Geoboundaries | High (OCHA + local gov) | Frequent (but based on one person) | Up to level 4 | Free | YES |
+| [World Bank Official Boundaries](https://datacatalog.worldbank.org/search/dataset/0038272/world-bank-official-boundaries) | Per country, incl. Non-Determined Legal Status Areas (NDLSA), ocean mask | WB Country Experts, HDX, FAO GAUL | High | Twice a year | Up to level 2 | Free | NO (adheres to WB lvl 0 standards) |
+| [FAO (GAUL)](https://www.fao.org/home/en/) | Covering more than one country; additional UNSALB data of 10 coun-tries is authoritative, but not recent | HDX, Geoboundaries, SALB | High (official) they validate the units directly with governments | Last updated 2024 (but long break in update from 2015 to 2024, used to be yearly) Next update: 2026 | Up to level 2 | Free | YES |
+| [Geoboundaries](https://www.geoboundaries.org/) | Very comprehensive, but needs processing (not edge-matched, not hierarchical) | Government sources, OpenStreetMap, Wikipedia | High | Last updated 2023 | Up to level 4 | Free | NO (USA pov) |
+| [OpenStreetMap](https://www.openstreetmap.de/) | dataset of last resort (min. 8 admin levels), clean nesting data not always available, not authoritative, partly non-hierarchical | OSM contributors | Varying (crowdsourced) | Continuous (but user based) | 11 levels | Free | NO |
+| [GADM](https://gadm.org/) | Highly simplified, high level of aggregation | Unknown data source (Info not available) | Medium | Every 2-3 years | Up to level 4 | Free for non commercial use | NO |
+| [Mapbox](https://www.mapbox.com/) | Very accurate, covering all countries | Commercial supplier | High | Unknown | Up to 4 | Commercial | YES |
 
 
 **FieldMaps.io**
