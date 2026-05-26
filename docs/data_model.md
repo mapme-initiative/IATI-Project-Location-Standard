@@ -107,7 +107,7 @@ Based on the defined requirements and the strengths and weaknesses of the variou
 | Geoboundaries | Government sources, OpenStreetMap, Wikipedia | High | Last updated 2023 | Up to level 4 | Free | NO (USA pov) |
 | OpenStreetMap | OSM contributors | Varies (crowdsourced) | Continuous (but user based) | 11 levels | Free | NO |
 | HDX - OCHA Global Subnational Admin Boundaries | UN country offices | High (OCHA ArcGIS Server) | Frequent | Depends on the country | Free | YES |
-| World Bank Official Boundaries | HDX_national gvt, WB GAD legacy | High | Twice a year | Up to level 2 | Free | NO (adheres to WB lvl 0 standards) |
+| World Bank Official Boundaries | WB Country Experts, HDX, FAO GAUL | High | Twice a year | Up to level 2 | Free | NO (adheres to WB lvl 0 standards) |
 | Mapbox | Commercial supplier | High | Unknown | Up to 4 | Commercial | YES |
 | Overture | geoBoundaries | High (geoBoundaries + OSM) | Monthly | Up to 4? | Free | |
 
