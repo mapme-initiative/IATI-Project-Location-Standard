@@ -101,15 +101,15 @@ Based on the defined requirements and the strengths and weaknesses of the variou
 | Name | Data sources | Accuracy | Update Frequency | Admin levels | Access | Flexible representation of boundaries |
 |------|-------------|----------|-----------------|--------------|--------|--------------------------------------|
 | National sources (gvt) | Country government | Varies | Varies | Varies | Varies | NO |
-| Fieldmaps.io | HDX_geoBoundaries | High (OCHA + local gov) | Frequent (but based on one person) | Up to level 4 | Free | YES |
+| Fieldmaps.io | HDX, Geoboundaries | High (OCHA + local gov) | Frequent (but based on one person) | Up to level 4 | Free | YES |
 | GADM | Unknown data source (Info not available) | Medium | Every 2-3 years | Up to level 4 | Free for non commercial use | NO |
-| FAO (GAUL) | HDX_geoBoundaries, SALB | High (official) they validate the units directly with governments | Last updated 2024 (but long break in update from 2015 to 2024, used to be yearly) Next update: 2026 | Up to level 2 | Free | YES |
+| FAO (GAUL) | HDX, Geoboundaries, SALB | High (official) they validate the units directly with governments | Last updated 2024 (but long break in update from 2015 to 2024, used to be yearly) Next update: 2026 | Up to level 2 | Free | YES |
 | Geoboundaries | Government sources, OpenStreetMap, Wikipedia | High | Last updated 2023 | Up to level 4 | Free | NO (USA pov) |
 | OpenStreetMap | OSM contributors | Varies (crowdsourced) | Continuous (but user based) | 11 levels | Free | NO |
 | HDX - OCHA Global Subnational Admin Boundaries | UN country offices | High (OCHA ArcGIS Server) | Frequent | Depends on the country | Free | YES |
 | World Bank Official Boundaries | WB Country Experts, HDX, FAO GAUL | High | Twice a year | Up to level 2 | Free | NO (adheres to WB lvl 0 standards) |
 | Mapbox | Commercial supplier | High | Unknown | Up to 4 | Commercial | YES |
-| Overture | geoBoundaries | High (geoBoundaries + OSM) | Monthly | Up to 4? | Free | |
+| Overture | Geobboundaries | High (Geoboundaries + OSM) | Monthly | Up to 4? | Free | |
 
 
 **FieldMaps.io**
