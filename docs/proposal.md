@@ -32,7 +32,7 @@
 | Geographic Exactness (exact, approximate (yet unknown, admin unit, security)) |  Geographic Exactness (exact, approximate - to be changed)   | Y               | Sub-element of iati-activity/location      |
 | Location Activity Description                | Location Activity Description                     | Y               | Sub-element of iati-activity/location      |
 | Location Type (Name, Code, Category)         | Location Type (Name, Code, Category)              | Y               | Sub-element of iati-activity/location      |
-| Geospatial Attributes (point, line, polygon, polygon repositories (admin unit, sectoral repositories) | Administrative / Point -> to be changed                            | Y               | Sub-element of iati-activity/location      |
+| Geospatial Attributes (point, line, polygon, polygon repositories (admin unit, sectoral repositories) | Administrative / Point -> to be changed  | Y               | Sub-element of iati-activity/location      |
 
 | Location (Sub-)Activity Status               |  -                                                | recommended as Y| Sub-element of iati-activity/location      |                                
 | Location Activity Start / End Date           |   -                                               | N               | Sub-element of iati-activity/location      |
