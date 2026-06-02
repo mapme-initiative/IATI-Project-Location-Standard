@@ -1,9 +1,9 @@
-<img width="527" height="81" alt="image" src="https://github.com/user-attachments/assets/c9d761be-3b9b-4753-a6e9-1299225b9011" /># Our Proposal to IATI
+# Our Proposal to IATI
 
 ---
 
-## Project-level Attributes 
-| MapMe Data Type                          | Name in the IATI Standard                              | Mandatory       | Location in the IATI Standard          |
+## [Project-level Attributes](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/data_model.md#current-draft-of-project-level--iati-activity-level-attributes-for-the-standard) 
+| MapMe Proposal to IATI                   | Current IATI Standard                                  | Mandatory       | Location in the IATI Standard          |
 |------------------------------------------|--------------------------------------------------------|-----------------|----------------------------------------|
 | Project ID                               | IATI Identifier                                        | Y               | Element of an IATI Activity            |
 | Data Publisher                           | IATI Organisation Identifier                           | Y               | Element of an IATI Activity            |
@@ -21,8 +21,8 @@
 
 ---
 
-## Location-level Attributes
-| MapMe Data Type                              | Name in the IATI Standard                         | Mandatory       | Location in the IATI Standard              |
+## [Location-level Attributes](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/data_model.md#current-draft-of-project-level--iati-activity-level-attributes-for-the-standard)
+| MapMe Proposal to IATI                       | Current IATI Standard                             | Mandatory       | Location in the IATI Standard              |
 |----------------------------------------------|---------------------------------------------------|-----------------|--------------------------------------------|
 | Field ID                                     |    -                                              | recommended as Y| Attribute of iati-activity/location        |
 | IATI Location ID                             | Location ID                                       | recommended as Y| Sub-element of iati-activity/location      |
@@ -31,7 +31,7 @@
 | Location Class (physical / immaterial)       | Geographic Location Reach                         | Y               | Sub-element of iati-activity/location      |
 | Geographic Exactness (exact, approximate (yet unknown, admin unit, security)) |  Geographic Exactness (exact, approximate - to be changed)   | Y               | Sub-element of iati-activity/location      |
 | Location Activity Description                | Location Activity Description                     | Y               | Sub-element of iati-activity/location      |
-| Location Type (Name, Code, Category)         | Location Type (Name, Code, Category)              | Y               | Sub-element of iati-activity/location      |
+| [Location Type (Name, Code, Category)](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/assets/excels/Location_Types_List_Proposal_01.md)         | Location Type (Name, Code, Category)              | Y               | Sub-element of iati-activity/location      |
 | Geospatial Attributes (point, line, polygon, polygon repositories (admin unit, sectoral repositories) | Administrative / Point -> to be changed  | Y               | Sub-element of iati-activity/location      |
 | Location (Sub-)Activity Status               |  -                                                | recommended as Y| Sub-element of iati-activity/location      |                                
 | Location Activity Start / End Date           |   -                                               | N               | Sub-element of iati-activity/location      |
