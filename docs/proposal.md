@@ -5,17 +5,17 @@
 ## [Project-level Attributes](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/data_model.md#current-draft-of-project-level--iati-activity-level-attributes-for-the-standard) 
 | MapMe Proposal to IATI                   | Current IATI Standard                                  | Mandatory       | Location in the IATI Standard          |
 |------------------------------------------|--------------------------------------------------------|-----------------|----------------------------------------|
-| Project ID                               | IATI Identifier                                        | Y               | Element of an IATI Activity            |
-| Data Publisher                           | IATI Organisation Identifier                           | Y               | Element of an IATI Activity            |
-| Project Title                            | Title                                                  | Y               | Element of an IATI Activity            |
-| Project Description                      | Description                                            | Y               | Element of an IATI Activity            |
-| Project Status                           | Activity Status                                        | Y               | Element of an IATI Activity            |
-| Project Start / End Date                 | Activity Date                                          | Y               | Element of an IATI Activity            |
-| Project Sector                           | Sector (DAC Vocabulary No. 1: 5-digit CRS Code & Name) | Y               | Element of an IATI Activity            |
-| Project Recipient Country / Region       | Recipient Country / Recipient Region                   | Y               | Element of an IATI Activity            |
-| Project Donor / Client                   | Participating Organisation                             | Y               | Element of an IATI Activity            |
-| Type of Financing Instrument             | Finance Type                                           | recommended as Y| Element of an IATI Activity            |
-| Name of Executing / Implementing Agency  | Participating Organisation                             | recommended as Y| Element of an IATI Activity            |
+| Project ID                               | [IATI Identifier](https://iatistandard.org/en/guidance/standard-overview/activity-information/creating-iati-identifiers/)                                        | Y               | Element of an IATI Activity            |
+| Data Publisher                           | [IATI Organisation Identifier](https://iatistandard.org/en/guidance/standard-overview/activity-information/creating-iati-identifiers/)                           | Y               | Element of an IATI Activity            |
+| Project Title                            | [Title](https://iatistandard.org/en/guidance/standard-overview/activity-information/key-activity-information-to-publish/)                                                  | Y               | Element of an IATI Activity            |
+| Project Description                      | [Description](https://iatistandard.org/en/guidance/standard-overview/activity-information/key-activity-information-to-publish/)                                            | Y               | Element of an IATI Activity            |
+| Project Status                           | [Activity Status](https://iatistandard.org/en/iati-standard/203/codelists/activitystatus/)                                        | Y               | Element of an IATI Activity            |
+| Project Start / End Date                 | [Activity Date](https://iatistandard.org/en/guidance/standard-guidance/activity-dates-status/)                                          | Y               | Element of an IATI Activity            |
+| Project Sector                           | [Sector (DAC Vocabulary No. 1: 5-digit CRS Code & Name)](https://iatistandard.org/en/iati-standard/203/codelists/sector/) | Y               | Element of an IATI Activity            |
+| Project Recipient Country / Region       | [Recipient Country / Recipient Region](https://iatistandard.org/en/iati-standard/203/codelists/sector/)                   | Y               | Element of an IATI Activity            |
+| Project Donor / Client                   | [Participating Organisation](https://iatistandard.org/en/guidance/standard-guidance/activity-participants/)                             | Y               | Element of an IATI Activity            |
+| Type of Financing Instrument             | [Finance Type](https://iatistandard.org/en/iati-standard/203/codelists/financetype/)                                           | recommended as Y| Element of an IATI Activity            |
+| Name of Executing / Implementing Agency  | [Participating Organisation](https://iatistandard.org/en/guidance/standard-guidance/activity-participants/)                             | recommended as Y| Element of an IATI Activity            |
 | Date of Data Collection / Latest Update  |   Date of latest Update                                | N               | Element of an IATI Activity             |
 | Language Code                            |   Language Code                                        | N               | Element of an IATI Activity             |
 
