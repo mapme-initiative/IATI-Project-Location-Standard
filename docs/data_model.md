@@ -61,7 +61,6 @@ The standardization requires a combination of:
 
 We recommend not to use the following IATI standard elements for our proposed new standard core scheme - all to be discussed:  
 - [Geographic Location Class](https://iatistandard.org/en/iati-standard/203/codelists/geographiclocationclass/) because it conflicts with the proposed location type scheme without adding value. It contains only four categories - whether the location refers to a structure, a populated place (e.g. city or village), an administrative division, or another topological feature (e.g. river, nature reserve). Since the location types are much more precise, this does not add value.  
-- [Geographic Location Reach](https://iatistandard.org/en/iati-standard/203/codelists/geographiclocationreach/): this distinction is mostly relevant for immaterial location types which already incorporated it. We however could also keep it and categorize our location types accordingly  
 - [Geographical Precision](https://iatistandard.org/en/iati-standard/203/codelists/geographicalprecision/): these categories contain overlaps with other categories and its most important elements are already covered by the new proposed categories of exactness together with the location types schema.  
 
 ---
