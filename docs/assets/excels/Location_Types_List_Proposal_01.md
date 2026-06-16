@@ -1,4 +1,4 @@
-| Location Type Theme (EN) | (IATI) Location Type Name (EN) | (IATI) Location Type Code (EN & FR) | Geograpic Location Reach (location of activity 1 / target area 2) | Geodata Type | IATI Category/ie (EN & FR) | (IATI) Location Type Description (EN) | Compared with IATI Standard |
+| Location Type Theme (EN) | (IATI) Location Type Name (EN) | (IATI) Location Type Code (EN & FR) | Geographic Location Reach (location of activity 1 / target area 2) | Geodata Type | IATI Category/ie (EN & FR) | (IATI) Location Type Description (EN) | Compared with IATI Standard |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | _Generic / Cross_Sectoral | advisory facility / support | ADVFS | 1 | point | A | a facility or location where advisory support services are being provided | NEW |
 | _Generic / Cross_Sectoral | building(s) | BLDG | 1 | point | S | a structure built for permanent use, as a house, factory, etc. | OLD |
