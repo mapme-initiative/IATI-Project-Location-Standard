@@ -127,12 +127,6 @@
             "format": "date",
             "type": "string"
         },
-        "related_community": {
-            "attribute_name": "Related Community / Village / Neighborhood",
-            "attribute_code": "related_community",
-            "description": "Enter a community, village, hamlet or neighbourhood name that relates to this location, this can serve for manually add smaller administrative unit names that are not in global databases.",
-            "type": "string"
-        },
         "location_name": {
             "attribute_name": "Location name", 
             "attribute_code": "location_name",
@@ -210,6 +204,7 @@
                 "capacity development / training",
                 "civil society support",
                 "common / public space(s)",
+                "data center",
                 "digital services usage area",
                 "early warning system",
                 "environmental & social mgt system",
