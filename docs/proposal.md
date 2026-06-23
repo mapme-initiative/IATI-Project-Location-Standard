@@ -1,5 +1,7 @@
 # Our Proposal to IATI
 
+More details including the related JSON Scheme and Excel Template you find 
+[here:](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/data_model.md)
 ---
 
 ## [Project-level Attributes](https://github.com/mapme-initiative/IATI-Project-Location-Standard/blob/main/docs/data_model.md#current-draft-of-project-level--iati-activity-level-attributes-for-the-standard) 
